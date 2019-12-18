@@ -10,7 +10,6 @@ import NavBar from './Components/Navbar'
 import Footer from './Components/Footer'
 
 
-
 function App() {
 
   return (
@@ -18,13 +17,13 @@ function App() {
       <div >
 
         <NavBar/>
-
-        <Route path="/" exact component={Home} />
-        <Route path="/OurStory" component={OurStory} />
-        <Route path="/FAQs" component={FAQs} />
-        <Route path="/Contact" component={Contact} />
-
-        <Footer />
+      
+              <Route path="/" exact component={Home} />
+              <Route path="/OurStory" component={OurStory} />
+              <Route path="/FAQs" component={FAQs} />
+              <Route path="/Contact" component={Contact} />
+      
+              <Footer />
 
       </div>
     </Router>
