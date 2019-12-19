@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button'
  	return(	 	
 	 	<div style={style.formContainer}>
 
-			<Form name="JinxContactForm" method="post" style={style.form}>
+			<Form name="KallOneContactForm" method="post" style={style.form}>
 
 				{/*Value set to the same of the Form on Index.html*/}
 			    <input type="hidden" name="form-name" value="JinxContactForm" />
@@ -19,12 +19,12 @@ import Button from 'react-bootstrap/Button'
 			 <Form.Group controlId="formName&LastName">
 			  <Row>
 			    <Col>
-				  <Form.Label>First Name</Form.Label>
-			      <Form.Control placeholder="Enter first name" name="FirstName" required/>
+				  <Form.Label>Nombre</Form.Label>
+			      <Form.Control placeholder="Ingresa Nombre" name="FirstName" required/>
 			    </Col>
 			    <Col>
-				  <Form.Label>Last Name</Form.Label>
-			      <Form.Control placeholder="Enter last name" name="LastName" required/>
+				  <Form.Label>Apellido</Form.Label>
+			      <Form.Control placeholder="Ingresa Apellido" name="LastName" required/>
 			    </Col>
 			  </Row>
 			 </Form.Group>
@@ -32,32 +32,32 @@ import Button from 'react-bootstrap/Button'
 			 <Form.Group controlId="formPhone&Country">
 			  <Row>
 			    <Col>
-				  <Form.Label>Country</Form.Label>
-			      <Form.Control placeholder="Enter country" name="Country" required/>
+				  <Form.Label>País</Form.Label>
+			      <Form.Control placeholder="Ingresa País" name="Country" required/>
 			    </Col>
 			    <Col>
-				  <Form.Label>Phone Number</Form.Label>
-			      <Form.Control placeholder="Enter phone" name="Phone" required/>
+				  <Form.Label>Teléfono</Form.Label>
+			      <Form.Control placeholder="Ingresa Numero Telefónico" name="Phone" required/>
 			    </Col>
 			  </Row>
 			 </Form.Group>						 
 
 			  <Form.Group controlId="formBasicEmail">
-			    <Form.Label>Email Address</Form.Label>
-			    <Form.Control type="email" placeholder="Enter email" name="Email" required/>
+			    <Form.Label>Correo Electrónico</Form.Label>
+			    <Form.Control type="email" placeholder="Ingresa Correo Electrónico" name="Email" required/>
 			    <Form.Text className="text-muted">
-			      We'll never share your email with anyone else.
+			      Nunca compartiremos su correo electrónico con nadie más.
 			    </Form.Text>
 			  </Form.Group>
 
 
 			  <Form.Group controlId="exampleForm.ControlTextarea1">
-			    <Form.Label>Message</Form.Label>
+			    <Form.Label>Mensaje</Form.Label>
 			    <Form.Control as="textarea" rows="3" name="Message"/>
 			  </Form.Group>
 
 			  <Button variant="primary" type="submit">
-			    Submit
+			    Enviar
 			  </Button>
 
 			</Form>
