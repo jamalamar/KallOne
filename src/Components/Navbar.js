@@ -12,14 +12,15 @@ function NavBar (props) {
     <div className="App">
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
           <Navbar.Brand style={style.brand} as={Link} to='/' >
-            <img src='/Assets/SaintsTitle.png' style={style.logo}/>
+            <img src='/Assets/KallOne_Logo.png' style={style.logo}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto" style={style.navItems}>
-              <Nav.Link as={Link} to='/OurStory' style={style.link}>Our Story</Nav.Link>
-              <Nav.Link as={Link} to="/FAQs" style={style.link}>FAQs</Nav.Link>
-              <Nav.Link as={Link} to='/Contact' style={style.link}>Contact</Nav.Link>
+            <Nav.Link as={Link} to='/' style={style.link}>Inicio</Nav.Link>
+              <Nav.Link as={Link} to='/Productos' style={style.link}>Productos</Nav.Link>
+              <Nav.Link as={Link} to="/QuienesSomos" style={style.link}>Quienes somos</Nav.Link>
+              <Nav.Link as={Link} to='/Contacto' style={style.link}>Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -31,13 +32,14 @@ function NavBar (props) {
 const style = {
 
   logo: {
-    width: '220px'
+    width: '160px'
   },
   navItems: {
     letterSpacing: '0.1em',
-    fontWeight: '602',
+    fontWeight: '702',
   },
   link: {
+    color: '#000000',
     margin: '0em 0em 0em 1em'
   }
 }
