@@ -15,8 +15,8 @@ function NavBar (props) {
         <Navbar 
           collapseOnSelect expand="lg" 
           fixed="top"
+          style={style.nav}
           bg='light'
-          variant='light'
           >
             <Navbar.Brand style={style.brand} as={Link} to='/' >
               <img src='/Assets/KallOne_Logo.png' style={style.logo}/>
@@ -67,6 +67,9 @@ const style = {
     width: '170px',
     margin: '0em 0em 0em 0em',
     padding: '0em 1em 0em 1em',
+  },
+  nav: {
+    
   },
   navItems: {
     letterSpacing: '0.1em',

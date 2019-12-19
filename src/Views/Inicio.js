@@ -91,7 +91,7 @@ function Home(){
 
 const style = {
 	carousel: {
-		padding: '6.5em 0em 0em 0em'
+		padding: '6em 0em 0em 0em'
 	},
 	carouselItem: {
 		height: '450px',
