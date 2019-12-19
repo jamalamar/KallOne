@@ -47,7 +47,7 @@ function NavBar (props) {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ml-auto" style={style.navItems}>
               <Nav.Link as={Link} to='/' style={style.link}>Inicio</Nav.Link>
-              <Nav.Link as={Link} to="/QuienesSomos" style={style.link}>Quienes somos</Nav.Link>
+              <Nav.Link as={Link} to="/QuienesSomos" style={style.link}>Quiénes somos</Nav.Link>
               <NavDropdown title="Productos">
                 <NavDropdown.Item as={Link} to='/Productos' >Aire Acondicionado</NavDropdown.Item>
                 <NavDropdown.Divider />

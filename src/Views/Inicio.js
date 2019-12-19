@@ -115,7 +115,7 @@ const style = {
 	divisionTwo: {
 		margin: '2em 0em 2em 0em',
 		width: '100%',
-		height: '2em',
+		height: '1em',
 		backgroundColor: '#00171f'
 	},
 	rowOne: {
