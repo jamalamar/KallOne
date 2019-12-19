@@ -5,12 +5,12 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 
 
-function FAQs(){
+function QuienesSomos(){
 	return(
 			<Jumbotron fluid style={style.header}>
 			  <Container>
 			    <div>
-				    <img src='Assets/Saints_Logo_Original.png' style={style.LogoHeader}/>
+				    <img src='Assets/KallOne_Logo.png' style={style.LogoHeader}/>
 			    </div>
 			    {/*<Button as={Link} to='/About' variant="outline-dark" size="lg" style={style.button}>Learn More</Button>*/}
 			  </Container>
@@ -20,35 +20,23 @@ function FAQs(){
 const style = {
 	header: {
 	    fontSize: '',
-	    backgroundImage: 'url(/Assets/Beach_Background.jpg)',
+	    backgroundImage: 'url(/Assets/People.jpg)',
 	    backgroundPosition: 'center',
 	    backgroundRepeat: 'no-repeat',
 	    backgroundSize: 'cover',
 	    textAlign: 'center',
-	    padding: '2em 0em 2em 0em',
+	    padding: '8em 0em 10em 0em',
 	    fontSize: '18px',
 		letterSpacing: '0.095em',
 		backgroundColor: '#cccccc',
 	  },
 	  LogoHeader: {
-	  	width: '55%',
-	  	padding: '6em 0em 2em 0em'
-	  },
-	  header: {
-	    backgroundImage: 'url(/Assets/Beach_Background.jpg)',
-	    backgroundPosition: 'center',
-	    backgroundRepeat: 'no-repeat',
-	    backgroundSize: 'cover',
-	    padding: '25px',
-	    textAlign: 'center',
-	    padding: '2em 0em 2em 0em',
-	    fontSize: '18px',
-		letterSpacing: '0.095em',
-		backgroundColor: '#cccccc',
+	  	width: '40%',
+	  	padding: '0em 0em 0em 0em'
 	  },
 	  button: {
 	  	fontWeight: 'bold',
 	  }
 }
 
-export default FAQs;
+export default QuienesSomos;
