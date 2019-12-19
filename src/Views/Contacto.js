@@ -12,7 +12,7 @@ function Contact () {
 
 			<Jumbotron fluid style={style.header}>
 			  <Container>
-			    <h1 style={style.title}>Tell us about your idea, and we'll make it a reality together</h1>
+			    <h1 style={style.title}>Contact Page</h1>
 			    <p>
 			      Get in touch and we’ll connect you with the business team nearest you.
 			    </p>

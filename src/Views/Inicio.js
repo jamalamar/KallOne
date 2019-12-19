@@ -50,20 +50,36 @@ function Home(){
 			  </Carousel.Item>
 			</Carousel>
 
+			<div style={style.division}></div>
+
 			<Container style={style.container}>
-			  <Row>
+			  <Row style={style.rowOne}>
 			    <Col lg={true}>
-			    	<h1>Nuestra Misión</h1>
-					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
-					equipos de climatización y refacciones automotrices de calidad, 
-					así como soluciones para su uso óptimo y mantenimiento.</p>
+			    	<img className="d-block w-100" src="/Assets/transfer2/airCond.png"/>
 				</Col>
+
 			    <Col lg={true}>
 			    	<h1>VISIÓN</h1>
 					<p>Convertirnos en los siguientes cinco años en una de las principales 
 					empresas del mercado centroamericano en la comercialización de autobuses, 
 					equipos de climatización, así como en refacciones automotrices 
 					y soluciones integrales para medios de transporte masivos.</p>
+			    </Col>
+			  </Row>
+
+			<div style={style.divisionTwo}></div>
+
+
+  			  <Row style={style.rowTwo}>
+			    <Col lg={true}>
+			    	<h1>NUESTRA MISIÓN</h1>
+					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
+					equipos de climatización y refacciones automotrices de calidad, 
+					así como soluciones para su uso óptimo y mantenimiento.</p>
+				</Col>
+
+			    <Col lg={true}>
+			    	<img className="d-block w-100" src="/Assets/transfer2/linner1.jpg"/>
 			    </Col>
 			  </Row>
 
@@ -75,7 +91,7 @@ function Home(){
 
 const style = {
 	carousel: {
-		padding: '5em 0em 0em 0em'
+		padding: '6.5em 0em 0em 0em'
 	},
 	carouselItem: {
 		height: '450px',
@@ -86,7 +102,27 @@ const style = {
 		backgroundColor: 'rgba(0,0,0,0.6)'
 	},
 	container: {
-		padding: '2em'
+		padding: '4em 2em 2em 2em',
+		fontSize: '20px',
+		textAlign: 'justify'
+	},
+	division: {
+		margin: '0em 0em 0em 0em',
+		width: '100%',
+		height: '2em',
+		backgroundColor: '#00171f'
+	},
+	divisionTwo: {
+		margin: '2em 0em 2em 0em',
+		width: '100%',
+		height: '2em',
+		backgroundColor: '#00171f'
+	},
+	rowOne: {
+
+	},
+	rowTwo: {
+
 	}
 }
 
