@@ -23,7 +23,7 @@ function QuienesSomos(){
 
 			<Container style={style.container}>
 			  
-			  <h1>¿QUIÉNES SOMOS?</h1>
+			  <h1 style={style.titles}>¿QUIÉNES SOMOS?</h1>
 			  <div style={style.divisionTwo}></div>
 
   			  <Row style={style.rowTwo}>
@@ -34,7 +34,12 @@ function QuienesSomos(){
 						y soluciones integrales desarrolladas por un equipo especializado con una 
 						estricta orientación de servicio al cliente.</p>
 				</Col>
-				<div style={style.divisionFive}></div>
+				<Col lg={true} >
+					<div style={style.badge}>
+						<img src="/Assets/SatisfactionBadge.png"/>
+					</div>
+				</Col>
+				
 			  </Row>
 
 			  <div style={style.divisionFour}></div>
@@ -47,6 +52,7 @@ function QuienesSomos(){
 						en el mundo que cumplen con las más altas expectativas de nuestros clientes 
 						para su óptimo rendimiento, aplicabilidad, durabilidad y mantenimiento efectivo.</p>
 				</Col>
+				<div style={style.divisionFive}></div>
 			    <Col lg={true}>
 			    	<h3>OBJETIVOS DE CALIDAD</h3>
 					<ul>
@@ -71,7 +77,7 @@ function QuienesSomos(){
 
 			<Container style={style.container}>
 			  
-			  <h1>PILARES DE LA EMPRESA</h1>
+			  <h1 style={style.titles}>PILARES DE LA EMPRESA</h1>
 			  <div style={style.divisionTwo}></div>
 
   			  <Row style={style.rowTwo}>
@@ -80,12 +86,9 @@ function QuienesSomos(){
 					<p>Para alcanzar cada objetivo planteado, cada colaborador tiene una visión
 						integral de la empresa y los socios de negocio.</p>
 				</Col>
+				
 				<div style={style.divisionFive}></div>
-			  </Row>
 
-			  <div style={style.divisionFour}></div>
-
-  			  <Row style={style.rowTwo}>
 			    <Col lg={true}>
 			    	<h3>INNOVACIÓN EN LOS PROCESOS</h3>
 					<p>Cada solución entregada al cliente es desarrollada a partir de las mejores
@@ -102,11 +105,9 @@ function QuienesSomos(){
 							internacionales de calidad y así asegurarnos de la entrega de valor en cada
 							producto vendido.</p>
 				</Col>
-			  </Row>
-			  
-			  <div style={style.divisionFour}></div>
-			  
-			  <Row>
+
+				<div style={style.divisionFive}></div>
+
 			    <Col lg={true}>
 			    	<h3>PROFESIONALISMO Y COMPROMISO</h3>
 					<p>Desempeñamos cada actividad dentro y fuera de la empresa de manera profesional con un total y estricto compromiso y responsabilidad hacia cada
@@ -143,6 +144,9 @@ header: {
   button: {
   	fontWeight: 'bold',
   },
+  titles: {
+  	textAlign: 'center'
+  },
   division: {
 	margin: '-2em 0em -2em 0em',
 	width: '100%',
@@ -169,7 +173,7 @@ header: {
   },
   divisionFive: {
 	margin: '0.3em 0em 0.3em 0em',
-	width: '0.5em',
+	width: '1em',
 	height: '',
 	backgroundColor: '#fff'
   },
@@ -178,6 +182,9 @@ header: {
 	fontSize: '20px',
 	textAlign: 'justify'
 },
+  badge: {
+  	textAlign: 'center',
+  }
 }
 
 export default QuienesSomos;
