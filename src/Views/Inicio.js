@@ -136,7 +136,7 @@ const style = {
 		backgroundColor: 'rgba(0,0,0,0.6)'
 	},
 	container: {
-		padding: '4em 0em 2em 0em',
+		padding: '4em 2em 2em 2em',
 		fontSize: '20px',
 		textAlign: 'justify'
 	},
