@@ -56,6 +56,7 @@ function Home(){
 			  <Row style={style.rowOne}>
 			    <Col lg={true}>
 			    	<h1 style={style.titles}>PRODUCTOS Y SERVICIOS</h1>
+			    	<div style={style.divisionThree}></div>
 					<p>En Kall One nos dedicamos a dos principales líneas de negocio; la climatización y el transporte.
 						La primera comprende la venta, distribución, instalación y mantenimiento de un amplio rango de 
 						productos para la climatización en medios de transporte masivos, así como sus refacciones y soluciones 
@@ -74,9 +75,10 @@ function Home(){
   			  <Row style={style.rowTwo}>
 			    <Col lg={true}>
 			    	<h2 style={style.titles}>EQUIPOS DE CLIMATIZACIÓN</h2>
-					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
-					equipos de climatización y refacciones automotrices de calidad, 
-					así como soluciones para su uso óptimo y mantenimiento.</p>
+			    	<div style={style.divisionThree}></div>
+					<p>Somos representante autorizado Eberspächer
+						Climate Control Systems. Ofrecemos equipos de climatización, refacciones,
+						 etc. Además del servicio, mantenimiento, instalación y reparación de estos.</p>
 				</Col>
 
 			    <Col lg={true}>
@@ -92,9 +94,10 @@ function Home(){
 				</Col>
 			    <Col lg={true}>
 			    	<h2 style={style.titles}>VEHÍCULOS DE TRANSPORTE DE PASAJEROS Y CARGA</h2>
-					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
-					equipos de climatización y refacciones automotrices de calidad, 
-					así como soluciones para su uso óptimo y mantenimiento.</p>
+			    	<div style={style.divisionThree}></div>
+					<p>Somos representante autorizado DINA. 
+						Ofrecemos una amplia gama de autobuses de pasajeros y de carga, refacciones, etc. 
+						Además del servicio, mantenimiento y reparación de estos.</p>
 				</Col>
 			</Row>
 
@@ -103,6 +106,7 @@ function Home(){
 			  <Row>
 			    <Col lg={true}>
 			    	<h2 style={style.titles}>VISIÓN</h2>
+			    	<div style={style.divisionThree}></div>
 					<p>Convertirnos en los siguientes cinco años en una de las principales 
 					empresas del mercado centroamericano en la comercialización de autobuses, 
 					equipos de climatización, así como en refacciones automotrices 
@@ -111,6 +115,7 @@ function Home(){
 
 			    <Col lg={true}>
 			    	<h2 style={style.titles}>MISIÓN</h2>
+			    	<div style={style.divisionThree}></div>
 					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
 					equipos de climatización y refacciones automotrices de calidad, 
 					así como soluciones para su uso óptimo y mantenimiento.</p>
@@ -150,6 +155,12 @@ const style = {
 		margin: '2em 0em 2em 0em',
 		width: '100%',
 		height: '0.5em',
+		backgroundColor: '#00171f'
+	},
+	divisionThree: {
+		margin: '0.5em 0em 0.5em 0em',
+		width: '100%',
+		height: '0.1em',
 		backgroundColor: '#00171f'
 	},
 	rowOne: {
