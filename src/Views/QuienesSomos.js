@@ -22,25 +22,6 @@ function QuienesSomos(){
 			<div style={style.division}></div>
 
 			<Container style={style.container}>
-			  <Row style={style.rowOne}>
-			    <Col lg={true}>
-			    	<h1>¿QUIÉNES SOMOS?</h1>
-					<p>En Kall One nos dedicamos a dos principales líneas de negocio; la climatización y el transporte.
-						La primera comprende la venta, distribución, instalación y mantenimiento de un amplio rango de 
-						productos para la climatización en medios de transporte masivos, así como sus refacciones y soluciones 
-						integrales.</p>
-
-					<p>La segunda comprende la venta,planeación, reparación y mantenimiento de autobuses para transporte de 
-						pasajeros y de carga, así como sus refacciones y soluciones integrales de movilidad.</p>
-
-					<p>Ambas líneas de negocio cuentan con los más altos estándares de calidad y la tecnología más avanzada.</p>
-			    </Col>
-			  </Row>
-
-
-			<div style={style.divisionTwo}></div>
-
-
   			  <Row style={style.rowTwo}>
 			    <Col lg={true}>
 			    	<h1>NUESTRA PROPUESTA DE VALOR</h1>
@@ -97,12 +78,12 @@ function QuienesSomos(){
 const style = {
 header: {
     fontSize: '',
-    backgroundImage: 'url(/Assets/People.jpg)',
+    backgroundImage: 'url(/Assets/buildings.jpg)',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     textAlign: 'center',
-    padding: '8em 0em 10em 0em',
+    padding: '7em 0em 10em 0em',
     fontSize: '18px',
 	letterSpacing: '0.095em',
 	backgroundColor: '#cccccc',

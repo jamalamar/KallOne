@@ -55,15 +55,16 @@ function Home(){
 			<Container style={style.container}>
 			  <Row style={style.rowOne}>
 			    <Col lg={true}>
-			    	<img className="d-block w-100" src="/Assets/transfer2/airCond.png"/>
-				</Col>
+			    	<h1>PRODUCTOS Y SERVICIOS</h1>
+					<p>En Kall One nos dedicamos a dos principales líneas de negocio; la climatización y el transporte.
+						La primera comprende la venta, distribución, instalación y mantenimiento de un amplio rango de 
+						productos para la climatización en medios de transporte masivos, así como sus refacciones y soluciones 
+						integrales.</p>
 
-			    <Col lg={true}>
-			    	<h1>VISIÓN</h1>
-					<p>Convertirnos en los siguientes cinco años en una de las principales 
-					empresas del mercado centroamericano en la comercialización de autobuses, 
-					equipos de climatización, así como en refacciones automotrices 
-					y soluciones integrales para medios de transporte masivos.</p>
+					<p>La segunda comprende la venta,planeación, reparación y mantenimiento de autobuses para transporte de 
+						pasajeros y de carga, así como sus refacciones y soluciones integrales de movilidad.</p>
+
+					<p>Ambas líneas de negocio cuentan con los más altos estándares de calidad y la tecnología más avanzada.</p>
 			    </Col>
 			  </Row>
 
@@ -72,15 +73,48 @@ function Home(){
 
   			  <Row style={style.rowTwo}>
 			    <Col lg={true}>
-			    	<h1>NUESTRA MISIÓN</h1>
+			    	<h1>EQUIPOS DE CLIMATIZACIÓN</h1>
 					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
 					equipos de climatización y refacciones automotrices de calidad, 
 					así como soluciones para su uso óptimo y mantenimiento.</p>
 				</Col>
 
 			    <Col lg={true}>
-			    	<img className="d-block w-100" src="/Assets/transfer2/linner1.jpg"/>
+			    	<img className="d-block w-100" src="/Assets/eberLogo.png"/>
 			    </Col>
+			  </Row>
+
+			<div style={style.divisionTwo}></div>
+
+			<Row>
+			    <Col lg={true}>
+			    	<img className="d-block w-100" src="/Assets/dinaLogo.jpg"/>
+				</Col>
+			    <Col lg={true}>
+			    	<h1>VEHÍCULOS DE TRANSPORTE DE PASAJEROS Y CARGA</h1>
+					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
+					equipos de climatización y refacciones automotrices de calidad, 
+					así como soluciones para su uso óptimo y mantenimiento.</p>
+				</Col>
+			</Row>
+
+			<div style={style.divisionTwo}></div>
+
+			  <Row>
+			    <Col lg={true}>
+			    	<h1>VISIÓN</h1>
+					<p>Convertirnos en los siguientes cinco años en una de las principales 
+					empresas del mercado centroamericano en la comercialización de autobuses, 
+					equipos de climatización, así como en refacciones automotrices 
+					y soluciones integrales para medios de transporte masivos.</p>
+			    </Col>
+
+			    <Col lg={true}>
+			    	<h1>MISIÓN</h1>
+					<p>Satisfacer las necesidades de transporte y climatización del mercado ofreciendo autobuses, 
+					equipos de climatización y refacciones automotrices de calidad, 
+					así como soluciones para su uso óptimo y mantenimiento.</p>
+				</Col>
 			  </Row>
 
 			</Container>		
@@ -102,7 +136,7 @@ const style = {
 		backgroundColor: 'rgba(0,0,0,0.6)'
 	},
 	container: {
-		padding: '4em 2em 2em 2em',
+		padding: '4em 0em 2em 0em',
 		fontSize: '20px',
 		textAlign: 'justify'
 	},
@@ -115,7 +149,7 @@ const style = {
 	divisionTwo: {
 		margin: '2em 0em 2em 0em',
 		width: '100%',
-		height: '1em',
+		height: '0.5em',
 		backgroundColor: '#00171f'
 	},
 	rowOne: {

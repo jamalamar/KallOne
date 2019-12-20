@@ -29,13 +29,7 @@ function NavBar (props) {
 
               <Dropdown.Menu>
                 <Dropdown.Item>
-                  <a HREF="tel:+(507)-209-9401"><img src="/Assets/phone.png"/>+(507)-209-9401</a>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <a HREF="tel:+(507)-279-1990"><img src="/Assets/phone.png"/>+(507)-279-1990</a>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <a HREF="tel:+(507)-279-1991"><img src="/Assets/phone.png"/>+(507)-279-1991</a>
+                  <a HREF="tel:+(507)-6532-9577"><img src="/Assets/phone.png"/>+(507)-6532-9577</a>
                 </Dropdown.Item>
                 <Dropdown.Item >
                   <a HREF="mailto:contacto@kall-one.com"><img src="/Assets/mail.png"/>contacto@kall-one.com</a>
@@ -43,9 +37,9 @@ function NavBar (props) {
               </Dropdown.Menu>
             </Dropdown>
             
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="ml-auto" style={style.navItems}>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+            <Navbar.Collapse id="responsive-navbar-nav" >
+              <Nav className="ml-auto" style={style.navItems} collapseOnSelect={true}>
               <Nav.Link as={Link} to='/' style={style.link}>Inicio</Nav.Link>
               <Nav.Link as={Link} to="/QuienesSomos" style={style.link}>Quiénes somos</Nav.Link>
               <NavDropdown title="Productos">

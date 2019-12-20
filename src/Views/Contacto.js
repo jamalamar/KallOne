@@ -31,9 +31,9 @@ function Contacto () {
 
 					
 					<Col style={style.info}>
-						<a target="_blank" href="https://www.google.com/maps/place/Plaza+Aventura+Business+Center/@9.0117052,-79.5338887,15z/data=!4m5!3m4!1s0x0:0xac39aba029fb1a56!8m2!3d9.0117052!4d-79.5338887"><img src="/Assets/address.png"/></a>
+						<a target="_blank" href="https://www.google.com/maps/search/Dal%C3%AD+Tower+PH+3a+Enrique+Geenzier,/@8.9887033,-79.5319987,18z"><img src="/Assets/address.png"/></a>
 						<br/>
-					    <a target="_blank" href="https://www.google.com/maps/place/Plaza+Aventura+Business+Center/@9.0117052,-79.5338887,15z/data=!4m5!3m4!1s0x0:0xac39aba029fb1a56!8m2!3d9.0117052!4d-79.5338887">Ave. Ricardo J. Alfaro, Plaza Aventura Mezanine No. 8 Panama City, Republica de Panamá</a>
+					    <a target="_blank" href="https://www.google.com/maps/search/Dal%C3%AD+Tower+PH+3a+Enrique+Geenzier,/@8.9887033,-79.5319987,18z">Dalí Tower PH 3a Enrique Geenzier, El Cangrejo, Panamá</a>
 				    </Col>
 
 				    <div style={style.division}></div>
@@ -44,9 +44,6 @@ function Contacto () {
 					    <br/>
 					    <a href="mailto:atanacio.ocampo@kall-one.com">atanacio.ocampo@kall-one.com</a>
 				    </Col>
-				    
-
-				    
 				    <Col style={style.info}>
 						<h3>Asuntos Generales</h3>
 					    <a href="tel:+(507)-6532-9577">+(507)-6532-9577</a>
