@@ -60,13 +60,14 @@ const style = {
 	  	fontSize: '50px'
 	  },
 	  container: {
-	  	padding: '0em 5em 5em 5em',
+	  	margin: 'auto',
+	  	padding: '0em 0em 2em 0em'
 	  },
 	  cardText: {
 	  	textAlign: 'justify'
 	  },
 	  cardImg: {
-	  	opacity: '0.2'
+	  	width: '545px'
 	  },
       divisionTwo: {
 		margin: '2em 0em 2em 0em',
