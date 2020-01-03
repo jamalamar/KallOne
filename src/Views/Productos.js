@@ -15,12 +15,11 @@ function Productos(){
 				<h1 style={style.title}>NUESTROS PRODUCTOS</h1>
 				<div style={style.divisionTwo}></div>
 				
-				<Row>
-					<Col>
+				
 						<Card className="bg-light text-dark" as={Link} to="/Climatización">
 						  <Card.Img src="Assets/transfer2/airCond.png" alt="Equipo de climatización" stlyle={style.cardImg} />
 						  <Card.ImgOverlay >
-						    <Card.Title className="mb-3" stlyle={style.cardTitle}>Equipo de climatización</Card.Title>
+						    <Card.Title className="mb-3" stlyle={style.cardTitle}>Equipo de Climatización</Card.Title>
 						    <Card.Text style={style.cardText}>
 						      Somos representante autorizado Eberspächer Climate Control Systems.
 						       Ofrecemos equipos de climatización, refacciones, etc.
@@ -28,9 +27,11 @@ function Productos(){
 						    </Card.Text>
 						  </Card.ImgOverlay>
 						</Card>
-					</Col>
+					
 
-					<Col>
+						<div style={style.divisionTwo}></div>
+
+					
 						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
 						  <Card.Img src="Assets/transfer2/runners.jpg" alt="Camiones" stlyle={style.cardImg} />
 						  <Card.ImgOverlay>
@@ -42,8 +43,7 @@ function Productos(){
 						    </Card.Text>
 						  </Card.ImgOverlay>
 						</Card>
-					</Col>
-				</Row>
+					
 
 			</Container>
 			
@@ -60,7 +60,7 @@ const style = {
 	  	fontSize: '50px'
 	  },
 	  container: {
-	  	padding: '0em 0em 3em 0em',
+	  	padding: '0em 5em 5em 5em',
 	  },
 	  cardText: {
 	  	textAlign: 'justify'
