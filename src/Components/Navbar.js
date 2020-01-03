@@ -6,6 +6,8 @@ import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 import Dropdown from 'react-bootstrap/Dropdown'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 
 function NavBar (props) {
@@ -37,25 +39,29 @@ function NavBar (props) {
               </Dropdown.Menu>
             </Dropdown>
             
+          
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav" >
               <Nav className="ml-auto" style={style.navItems} collapseOnSelect={true}>
               <Button as={Link} to='/' style={style.link} variant="light">Inicio</Button>
-              <Button as={Link} to="/QuienesSomos" style={style.link} variant="light">Quiénes somos</Button>
-              <Dropdown style={style.link}>
-                <Button as={Link} to='/Productos' variant="light">Productos</Button>
+              <Button as={Link} to="/QuienesSomos" style={style.link} variant="light">Quiénes Somos</Button>
+              
+              <Dropdown as={Link} as={Button} to='/Productos' variant="link" style={style.dropdown}>
+                <Button as={Link} to='/Productos' style={style.link} variant="light">Productos</Button>
 
-                <Dropdown.Toggle split variant="light" id="dropdown-split-basic" />
+                <Dropdown.Toggle split variant="light" id="dropdown-split-basic"/>
 
-                <Dropdown.Menu>
+                <Dropdown.Menu >
                   <Dropdown.Item as={Link} to="/Vehículos">Vehículos</Dropdown.Item>
                   <Dropdown.Divider />
                   <Dropdown.Item as={Link} to="/Climatización">Equipo de Climatización</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
+              
               <Button as={Link} to='/Contacto' style={style.link} variant="light">Contacto</Button>
               </Nav>
             </Navbar.Collapse>
+           
         </Navbar>
     </div>
   );
@@ -75,8 +81,11 @@ const style = {
     letterSpacing: '0.1em',
     fontWeight: '702',
   },
+  dropdown: {
+    margin: '-6px',
+  },
   link: {
-    margin: '0em 0em 0em 1.2em'
+    margin: '0em 0em 0em 1.2em',
   },
   contact: {
     fontSize: '12px',
