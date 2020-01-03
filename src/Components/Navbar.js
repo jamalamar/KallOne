@@ -48,9 +48,9 @@ function NavBar (props) {
                 <Dropdown.Toggle split variant="light" id="dropdown-split-basic" />
 
                 <Dropdown.Menu>
-                  <Dropdown.Item as={Link} to="/Climatización">Equipo de Climatización</Dropdown.Item>
-                  <Dropdown.Divider />
                   <Dropdown.Item as={Link} to="/Vehículos">Vehículos</Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item as={Link} to="/Climatización">Equipo de Climatización</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
               <Button as={Link} to='/Contacto' style={style.link} variant="light">Contacto</Button>

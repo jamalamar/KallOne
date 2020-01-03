@@ -14,8 +14,21 @@ function Productos(){
 			<Container style={style.container}>
 				<h1 style={style.title}>NUESTROS PRODUCTOS</h1>
 				<div style={style.divisionTwo}></div>
-				
-				
+								
+						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
+						  <Card.Img src="Assets/transfer2/runners.jpg" alt="Camiones" stlyle={style.cardImg} />
+						  <Card.ImgOverlay>
+						    <h2 className="mb-3" stlyle={style.cardTitle}>Vehículos</h2>
+						    <Card.Text style={style.cardText}>
+						      Somos representante autorizado DINA. 
+						      Ofrecemos una amplia gama de autobuses de pasajeros y de carga,
+						       refacciones, etc. Además del servicio, mantenimiento y reparación de estos.
+						    </Card.Text>
+						  </Card.ImgOverlay>
+						</Card>
+
+						<div style={style.divisionTwo}></div>
+
 						<Card className="bg-light text-dark" as={Link} to="/Climatización">
 						  <Card.Img src="Assets/transfer2/airCond.png" alt="Equipo de climatización" stlyle={style.cardImg} />
 						  <Card.ImgOverlay >
@@ -28,23 +41,7 @@ function Productos(){
 						  </Card.ImgOverlay>
 						</Card>
 					
-
-						<div style={style.divisionTwo}></div>
-
 					
-						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
-						  <Card.Img src="Assets/transfer2/runners.jpg" alt="Camiones" stlyle={style.cardImg} />
-						  <Card.ImgOverlay>
-						    <h2 className="mb-3" stlyle={style.cardTitle}>Vehículos</h2>
-						    <Card.Text style={style.cardText}>
-						      Somos representante autorizado DINA. 
-						      Ofrecemos una amplia gama de autobuses de pasajeros y de carga,
-						       refacciones, etc. Además del servicio, mantenimiento y reparación de estos.
-						    </Card.Text>
-						  </Card.ImgOverlay>
-						</Card>
-					
-
 			</Container>
 			
 
