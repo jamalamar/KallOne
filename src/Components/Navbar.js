@@ -40,14 +40,20 @@ function NavBar (props) {
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav" >
               <Nav className="ml-auto" style={style.navItems} collapseOnSelect={true}>
-              <Nav.Link as={Link} to='/' style={style.link}>Inicio</Nav.Link>
-              <Nav.Link as={Link} to="/QuienesSomos" style={style.link}>Quiénes somos</Nav.Link>
-              <NavDropdown title="Productos">
-                <NavDropdown.Item as={Link} to='/Productos' >Aire Acondicionado</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to='/Productos' >Camiones</NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link as={Link} to='/Contacto' style={style.link}>Contacto</Nav.Link>
+              <Button as={Link} to='/' style={style.link} variant="light">Inicio</Button>
+              <Button as={Link} to="/QuienesSomos" style={style.link} variant="light">Quiénes somos</Button>
+              <Dropdown style={style.link}>
+                <Button as={Link} to='/Productos' variant="light">Productos</Button>
+
+                <Dropdown.Toggle split variant="light" id="dropdown-split-basic" />
+
+                <Dropdown.Menu>
+                  <Dropdown.Item as={Link} to="/Productos">Aire Acondicionado</Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item as={Link} to="/Productos">Camiones</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+              <Button as={Link} to='/Contacto' style={style.link} variant="light">Contacto</Button>
               </Nav>
             </Navbar.Collapse>
         </Navbar>
@@ -70,7 +76,7 @@ const style = {
     fontWeight: '702',
   },
   link: {
-    margin: '0em 0em 0em 1em'
+    margin: '0em 0em 0em 1.2em'
   },
   contact: {
     fontSize: '12px',
