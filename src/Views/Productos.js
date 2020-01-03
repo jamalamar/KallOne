@@ -15,34 +15,46 @@ function Productos(){
 				<h1 style={style.title}>NUESTROS PRODUCTOS</h1>
 				<div style={style.divisionTwo}></div>
 								
+				<Row>
+					<Col>
 						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
 						  <Card.Img src="Assets/transfer2/runners.jpg" alt="Camiones" stlyle={style.cardImg} />
 						  <Card.ImgOverlay>
-						    <h2 className="mb-3" stlyle={style.cardTitle}>Vehículos</h2>
-						    <Card.Text style={style.cardText}>
-						      Somos representante autorizado DINA. 
-						      Ofrecemos una amplia gama de autobuses de pasajeros y de carga,
-						       refacciones, etc. Además del servicio, mantenimiento y reparación de estos.
-						    </Card.Text>
+						    <h1 className="mb-3" stlyle={style.cardTitle}>Vehículos</h1>
+						    {/*
+							    <Card.Text style={style.cardText}>
+							      Somos representante autorizado DINA. 
+							      Ofrecemos una amplia gama de autobuses de pasajeros y de carga,
+							       refacciones, etc. Además del servicio, mantenimiento y reparación de estos.
+							    </Card.Text>
+							*/}
 						  </Card.ImgOverlay>
 						</Card>
+					</Col>
 
-						<div style={style.divisionTwo}></div>
+					
 
+					<Col>
 						<Card className="bg-light text-dark" as={Link} to="/Climatización">
 						  <Card.Img src="Assets/transfer2/airCond.png" alt="Equipo de climatización" stlyle={style.cardImg} />
 						  <Card.ImgOverlay >
-						    <h2 className="mb-3" stlyle={style.cardTitle}>Equipo de Climatización</h2>
-						    <Card.Text style={style.cardText}>
-						      Somos representante autorizado Eberspächer Climate Control Systems.
-						       Ofrecemos equipos de climatización, refacciones, etc.
-						        Además del servicio, mantenimiento, instalación y reparación de estos.
-						    </Card.Text>
+						    <h1 className="mb-3" stlyle={style.cardTitle}>Equipo de Climatización</h1>
+						    
+						    {/*
+						    	<Card.Text style={style.cardText}>
+    						      Somos representante autorizado Eberspächer Climate Control Systems.
+    						       Ofrecemos equipos de climatización, refacciones, etc.
+    						        Además del servicio, mantenimiento, instalación y reparación de estos.
+    						    </Card.Text>
+						    */}
+
 						  </Card.ImgOverlay>
 						</Card>
-					
+					</Col>
+				</Row>
 					
 			</Container>
+			<div style={style.divisionThree}></div>
 			
 
 		</div>
@@ -58,7 +70,7 @@ const style = {
 	  },
 	  container: {
 	  	margin: 'auto',
-	  	padding: '0em 0em 2em 0em'
+	  	padding: '0em 0em 7em 0em'
 	  },
 	  cardText: {
 	  	textAlign: 'justify'
@@ -71,7 +83,13 @@ const style = {
 		width: '100%',
 		height: '1em',
 		backgroundColor: '#003459'
-  },
+	  },
+      divisionThree: {
+		margin: '2em 0em 0em 0em',
+		width: '100%',
+		height: '1em',
+		backgroundColor: '#003459'
+	  }
 }
 
 export default Productos;
