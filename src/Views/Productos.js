@@ -15,8 +15,8 @@ function Productos(){
 				<h1 style={style.title}>NUESTROS PRODUCTOS</h1>
 				<div style={style.divisionTwo}></div>
 								
-				<Row>
-					<Col>
+				<Row >
+					<Col lg={true} style={style.col}>
 						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
 						  <Card.Img src="Assets/transfer2/runners.jpg" alt="Camiones" stlyle={style.cardImg} />
 						  <Card.ImgOverlay>
@@ -34,8 +34,8 @@ function Productos(){
 
 					
 
-					<Col>
-						<Card className="bg-light text-dark" as={Link} to="/Climatización">
+					<Col lg={true} style={style.col}>
+						<Card className="bg-light text-dark" as={Link} to="/Climatización" lg={true}>
 						  <Card.Img src="Assets/transfer2/airCond.png" alt="Equipo de climatización" stlyle={style.cardImg} />
 						  <Card.ImgOverlay >
 						    <h1 className="mb-3" stlyle={style.cardTitle}>Equipo de Climatización</h1>
@@ -70,7 +70,13 @@ const style = {
 	  },
 	  container: {
 	  	margin: 'auto',
-	  	padding: '0em 0em 7em 0em'
+	  	padding: '0em 0em 4em 0em'
+	  },
+	  col: {
+	  	padding: '1.5em'
+	  },
+	  card: {
+	  	width: '100%'
 	  },
 	  cardText: {
 	  	textAlign: 'justify'
