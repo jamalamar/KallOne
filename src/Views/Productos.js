@@ -17,10 +17,10 @@ function Productos(){
 				
 				<Row>
 					<Col>
-						<Card className="bg-light text-dark" as={Link} to="/Inicio">
-						  <Card.Img src="Assets/transfer2/airCond.png" alt="Aire Acondicionado" stlyle={style.cardImg} />
+						<Card className="bg-light text-dark" as={Link} to="/Climatización">
+						  <Card.Img src="Assets/transfer2/airCond.png" alt="Equipo de climatización" stlyle={style.cardImg} />
 						  <Card.ImgOverlay >
-						    <Card.Title className="mb-3" stlyle={style.cardTitle}>Aire Acondicionado</Card.Title>
+						    <Card.Title className="mb-3" stlyle={style.cardTitle}>Equipo de climatización</Card.Title>
 						    <Card.Text style={style.cardText}>
 						      Somos representante autorizado Eberspächer Climate Control Systems.
 						       Ofrecemos equipos de climatización, refacciones, etc.
@@ -31,10 +31,10 @@ function Productos(){
 					</Col>
 
 					<Col>
-						<Card className="bg-light text-dark" as={Link} to="/Inicio">
+						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
 						  <Card.Img src="Assets/transfer2/runners.jpg" alt="Camiones" stlyle={style.cardImg} />
 						  <Card.ImgOverlay>
-						    <Card.Title className="mb-3" stlyle={style.cardTitle}>Camiones</Card.Title>
+						    <Card.Title className="mb-3" stlyle={style.cardTitle}>Vehículos</Card.Title>
 						    <Card.Text style={style.cardText}>
 						      Somos representante autorizado DINA. 
 						      Ofrecemos una amplia gama de autobuses de pasajeros y de carga,
