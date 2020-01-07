@@ -2,6 +2,9 @@ import React from 'react';
 
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 function Vehiculos() {
 
@@ -10,329 +13,304 @@ function Vehiculos() {
         <h1 style={style.title}>VEHÍCULOS</h1>
         <div style={style.divisionTwo}></div> 
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/HUSTLER.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>HUSTLER</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+        <Row>
+          <Col>
+            <Card bg="light" >
+              <Card.Img variant="top" src="Assets/transfer1/HUSTLER.jpg" />
+                <Card.ImgOverlay>
+                            
+                </Card.ImgOverlay>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+              <Card.Body>
+                <Card.Title style={style.cardTitleTwo}>HUSTLER</Card.Title>
+                <Card.Text >
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/LINNER_12.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>LINNER 12</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/LINNER.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>LINNER</Card.Title>
+                <Card.Text >
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>        
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/LINNER_2020.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>LINNER 2020</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+        <br/>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+        <Row>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/LINNER_12.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>LINNER 12</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/LINNER.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>LINNER</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+                </Card.Text>
+              </Card.Body>
+            </Card>        
+          </Col>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/LINNER_2020.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>LINNER 2020</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/OUTSIDER.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>OUTSIDER</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col> 
+        </Row>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+        <br/>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Row>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/OUTSIDER.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>OUTSIDER</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/PICKER_8.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>PICKER 8</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/PICKER_8.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>PICKER 8</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/PICKER_11.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>PICKER 11</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+        <br/>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Row>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/PICKER_11.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>PICKER 11</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/RIDDER_E.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>RIDDER E</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/RIDDER_E.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>RIDDER E</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/RIDDER_G.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>RIDDER G</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <br/>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/RUNNER_2020.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>RUNNER 2020</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+        <Row>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/RIDDER_G.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>RIDDER G</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/SILUX_8_SUB.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>SILUX 8 SUB</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/RUNNER_2020.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>RUNNER 2020</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
-        <Card className="bg-light text-dark">
-          <Card.Img variant="top" src="Assets/transfer1/SILUX_8.jpg" />
-            <Card.ImgOverlay>
-              <h1 style={style.cardTitle}>SILUX 8</h1>           
-            </Card.ImgOverlay>
-          <Card.Body>
-            <Card.Text style={style.cardText}>
-              <p>El AC 353 ha demostrado una superioridad modélica
-                 con la que ofrece a nivel mundial soluciones que logran el mas 
-                 avanzado confort de los pasajeros. A menudo copiado, pero nunca 
-                 igualado: el AC 353 es sinónimo de absoluto desempeño y confiabilidad. 
-                 El sistema AC353 G4 aun va un paso mas allá y establece nuevos estándares 
-                 de liderazgo en climatización de autobuses.</p>
+        <br/>
 
-               <ul style={style.cardList}>
-                 <li style={style.listItem}>Completo espectro de capacidades para aplicaciones en zonas climáticas templadas y países cálidos.</li>
-                 <li style={style.listItem}>Diseño modular especialmente compacto gracias a la avanzada tecnología de intercambiador de calor MCHX.</li>
-                 <li style={style.listItem}>Sencillo montaje que reduce el trabajo de instalación del fabricante de autobuses.</li>
-                 <li style={style.listItem}>Cantidad de refrigerante reducida para un impacto medioambiental menor y menor costo de mantenimiento.</li>
-                 <li style={style.listItem}>Superficie de montaje estandarizada en todas las variantes del modelo.</li>
-                 <li style={style.listItem}>Reducidos costos de ciclo de vida y mayor facilidad de mantenimiento.</li>
-               </ul>
+        <Row>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/SILUX_8_SUB.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>SILUX 8 SUB</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
 
-            </Card.Text>
-          </Card.Body>
-        </Card>
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/SILUX_8.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>SILUX 8</Card.Title>
+                <Card.Text style={style.cardText}>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                  </ListGroup>
+
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
 
     </Container>
@@ -347,16 +325,21 @@ const style = {
     },
     container: {
       margin: 'auto',
-      padding: '0em 2em 2em 2em',
+      padding: '0em 0.3em 0.3em 0.3em',
     },
     card: {
       display: 'block',
       marginLeft: 'auto',
       marginRight: 'auto',
-      width: '85%',
+      width: '95%',
     },
     cardTitle: {
       textAlign: 'justify',
+      letterSpacing: '0.2em',
+      fontWeight: '900',
+    },
+    cardTitleTwo: {
+      fontSize: '2em',
       letterSpacing: '0.2em',
       fontWeight: '900',
     },
@@ -370,6 +353,7 @@ const style = {
       fontSize: '14px',
       letterSpacing: '0.1em',
       fontWeight: '702',
+      backgroundColor: ''
     },
     listItem: {
       padding: '1em 0em 0em 0em'
