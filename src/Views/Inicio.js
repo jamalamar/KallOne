@@ -18,8 +18,9 @@ function Home(){
 			      alt="First slide"
 			    />
 			    <Carousel.Caption style={style.caption}>
-			      <h2>Visión Global de Negocios</h2>
-			      <p>Para alcanzar cada objetivo planteado, cada colaborador tiene una visión conjunta de la empresa y los socios de negocios.</p>
+			      <h2>VISIÓN GLOBAL DE NEGOCIOS</h2>
+			      <p>Para alcanzar cada objetivo planteado, cada colaborador tiene una visión
+					integral de la empresa y los socios de negocio.</p>
 			    </Carousel.Caption>
 			  </Carousel.Item>
 
@@ -29,10 +30,11 @@ function Home(){
 			      src="Assets/transfer2/Slide_Two.jpg"
 			      alt="Third slide"
 			    />
-
 			    <Carousel.Caption style={style.caption}>
-			      <h2>Calidad en los Productos</h2>
-			      <p>Nuestros proveedores se ocupan de cumplir con los más altos estándares de calidad y así asegurar la entrega de valor en cada producto.</p>
+			      <h2>CALIDAD EN LOS PRODUCTOS</h2>
+			      <p>Nuestros proveedores se ocupan de cumplir con los más altos estándares
+					internacionales de calidad y así asegurarnos de la entrega de valor en cada
+					producto vendido.</p>
 			    </Carousel.Caption>
 			  </Carousel.Item>
 
@@ -42,10 +44,25 @@ function Home(){
 			      src="Assets/transfer2/Slide_One.jpg"
 			      alt="Third slide"
 			    />
-
 			    <Carousel.Caption style={style.caption}>
-			      <h2>Profesionalismo y Compromiso</h2>
-			      <p>Desarrollamos cada actividad de manera profesional con un total compromiso y responsabilidad hacia cada socio de negocios.</p>
+			      <h2>PROFESIONALISMO Y COMPROMISO</h2>
+			      <p>Desempeñamos cada actividad dentro y fuera de la empresa de manera 
+			      profesional con un total y estricto compromiso y responsabilidad hacia cada
+					socio de negocio.</p>
+			    </Carousel.Caption>
+			  </Carousel.Item>
+
+			  	<Carousel.Item style={style.carouselItem}>
+			    <img
+			      className="d-block w-100"
+			      src="Assets/transfer2/Slide_Two.jpg"
+			      alt="Third slide"
+			    />
+			    <Carousel.Caption style={style.caption}>
+			      <h2>INNOVACIÓN EN LOS PROCESOS</h2>
+			      <p>Cada solución entregada al cliente es desarrollada a partir de las mejores
+					prácticas de la industria, encaminadas siempre a una mayor eficiencia y
+					durabilidad.</p>
 			    </Carousel.Caption>
 			  </Carousel.Item>
 			</Carousel>
@@ -57,12 +74,12 @@ function Home(){
 			    <Col lg={true}>
 			    	<h1 style={style.titles}>PRODUCTOS Y SERVICIOS</h1>
 			    	<div style={style.divisionThree}></div>
-					<p>En Kall One nos dedicamos a dos principales líneas de negocio; la climatización y el transporte.
+					<p>En Kall One nos dedicamos a dos principales líneas de negocio; <p style={{'font-weight': '850', 'display': 'inline'}}>la Climatización y el Transporte. </p>
 						La primera comprende la venta, distribución, instalación y mantenimiento de un amplio rango de 
 						productos para la climatización en medios de transporte masivos, así como sus refacciones y soluciones 
 						integrales.</p>
 
-					<p>La segunda comprende la venta,planeación, reparación y mantenimiento de autobuses para transporte de 
+					<p>La segunda comprende la venta, planeación, reparación y mantenimiento de autobuses para transporte de 
 						pasajeros y de carga, así como sus refacciones y soluciones integrales de movilidad.</p>
 
 					<p>Ambas líneas de negocio cuentan con los más altos estándares de calidad y la tecnología más avanzada.</p>
@@ -95,7 +112,7 @@ function Home(){
 			    <Col lg={true}>
 			    	<h2 style={style.titles}>VEHÍCULOS DE TRANSPORTE DE PASAJEROS Y CARGA</h2>
 			    	<div style={style.divisionThree}></div>
-					<p>Somos representante autorizado DINA. 
+					<p>Somos representante autorizado DINA en México y DIMEX en Centroamérica y el Caribe. 
 						Ofrecemos una amplia gama de autobuses de pasajeros y de carga, refacciones, etc. 
 						Además del servicio, mantenimiento y reparación de estos.</p>
 				</Col>
@@ -130,7 +147,7 @@ function Home(){
 
 const style = {
 	carousel: {
-		padding: '6em 0em 0em 0em'
+		padding: '5em 0em 0em 0em'
 	},
 	carouselItem: {
 		height: '450px',
@@ -138,7 +155,7 @@ const style = {
 	caption: {
 		color: '#fff',
 		padding: '1.5em',
-		backgroundColor: 'rgba(0,0,0,0.6)'
+		backgroundColor: 'rgba(55, 134, 195, 0.6)'
 	},
 	container: {
 		padding: '4em 2em 2em 2em',
@@ -149,19 +166,19 @@ const style = {
 		margin: '0em 0em 0em 0em',
 		width: '100%',
 		height: '2em',
-		backgroundColor: '#00171f'
+		backgroundColor: '#55b0d6'
 	},
 	divisionTwo: {
 		margin: '2em 0em 2em 0em',
 		width: '100%',
 		height: '0.5em',
-		backgroundColor: '#00171f'
+		backgroundColor: '#55b0d6'
 	},
 	divisionThree: {
 		margin: '0.5em 0em 0.5em 0em',
 		width: '100%',
 		height: '0.1em',
-		backgroundColor: '#00171f'
+		backgroundColor: '#55b0d6'
 	},
 	rowOne: {
 

@@ -88,13 +88,13 @@ const style = {
 		margin: '2em 0em 2em 0em',
 		width: '100%',
 		height: '1em',
-		backgroundColor: '#003459'
+		backgroundColor: '#55b0d6'
 	  },
       divisionThree: {
 		margin: '2em 0em 0em 0em',
 		width: '100%',
 		height: '1em',
-		backgroundColor: '#003459'
+		backgroundColor: '#55b0d6'
 	  }
 }
 

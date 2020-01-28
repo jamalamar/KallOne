@@ -25,7 +25,7 @@ function Vehiculos() {
                 <Card.Title style={style.cardTitleTwo}>HUSTLER</Card.Title>
                 <Card.Text >
  
-                  <ListGroup >
+                  <ListGroup variant='flush'>
                     <ListGroup.Item >Su estructura galvanizada, con el eje montado sobre el
                      chasis y sin suspensión, es resultado de la fusión entre tecnología
                       y armado que día con día tiene lugar en nuestra planta de Ciudad Sahagún,

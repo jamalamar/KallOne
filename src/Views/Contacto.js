@@ -91,7 +91,7 @@ const style = {
 	margin: '0em 0em 1em 0em',
 	width: '100%',
 	height: '0.5em',
-	backgroundColor: '#003459'
+	backgroundColor: '#55b0d6'
   },
   info: {
   	margin: '2em',

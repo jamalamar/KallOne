@@ -12,7 +12,7 @@ function QuienesSomos(){
 		<div>
 			<Jumbotron fluid style={style.header}>
 			  <Container>
-			    <div>
+			    <div style={style.log}>
 				    <img src='Assets/KallOne_Logo.png' style={style.LogoHeader}/>
 			    </div>
 			    {/*<Button as={Link} to='/About' variant="outline-dark" size="lg" style={style.button}>Learn More</Button>*/}
@@ -127,19 +127,20 @@ function QuienesSomos(){
 const style = {
 header: {
     fontSize: '',
-    backgroundImage: 'url(/Assets/buildings.jpg)',
+    backgroundImage: 'url(/Assets/banner1.jpg)',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     textAlign: 'center',
-    padding: '7em 0em 10em 0em',
+    padding: '9em 0em 10em 0em',
     fontSize: '18px',
 	letterSpacing: '0.095em',
 	backgroundColor: '#cccccc',
+	opacity: ''
   },
   LogoHeader: {
-  	width: '40%',
-  	padding: '0em 0em 0em 0em'
+  	width: '55%',
+  	padding: '0em 0em 0em 0em',
   },
   button: {
   	fontWeight: 'bold',
@@ -150,26 +151,26 @@ header: {
   division: {
 	margin: '-2em 0em -2em 0em',
 	width: '100%',
-	height: '4em',
+	height: '2em',
 	backgroundColor: '#00171f'
   },
   divisionTwo: {
 	margin: '2em 0em 2em 0em',
 	width: '100%',
 	height: '1em',
-	backgroundColor: '#003459'
+	backgroundColor: '#55b0d6'
   },
   divisionThree: {
 	margin: '2em 0em 0em 0em',
 	width: '100%',
 	height: '1em',
-	backgroundColor: '#003459'
+	backgroundColor: '#55b0d6'
   },
   divisionFour: {
 	margin: '1em 0em 1em 0em',
 	width: '100%',
 	height: '0.1em',
-	backgroundColor: '#00171f'
+	backgroundColor: '#55b0d6'
   },
   divisionFive: {
 	margin: '0.3em 0em 0.3em 0em',
@@ -184,6 +185,9 @@ header: {
 },
   badge: {
   	textAlign: 'center',
+  },
+  log: {
+  	width: ''
   }
 }
 
