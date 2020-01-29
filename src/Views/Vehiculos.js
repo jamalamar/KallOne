@@ -74,7 +74,7 @@ function Vehiculos() {
                 <Card.Text>
  
                   <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4>Cummins ISB 6.7, Potencia 202 Hp @ 2,300 Rpm. Par torsional 553 Lb Ft @ 1,100 -1,800 Rpm. 6 cilindros en línea, certificación de emisiones Euro V.</ListGroup.Item>
+                    <ListGroup.Item ><h4>Motor</h4>Cummins ISB 6.7, Potencia 202 Hp @ 2,300 Rpm. Par torsional 553 Lb Ft @ 1,100-1,800 Rpm. 6 cilindros en línea, certificación de emisiones Euro V.</ListGroup.Item>
                     <ListGroup.Item><h4>Sistema de frenos</h4> Doble sistema independiente-Leva-Tambor Arvin Meritor Q Plus y secador de aire automático. Ajustadores de freno automáticos.</ListGroup.Item>
                     <ListGroup.Item><h4>Puertas</h4>Delantera y trasera de dos hojas abatibles con mandos neumáticos e inhibidor de aceleración.</ListGroup.Item>
                     <ListGroup.Item><h4>Transmisión</h4>Eaton Fuller FSO – 6406A con Overdrive. Transmisión manual con 6 velocidades al frente y   una reversa.</ListGroup.Item>
@@ -93,15 +93,15 @@ function Vehiculos() {
                 <Card.ImgOverlay>
                 </Card.ImgOverlay>
               <Card.Body>
-              <Card.Title style={style.cardTitleTwo}>OUTSIDER (Falta Info)</Card.Title>
+              <Card.Title style={style.cardTitleTwo}>OUTSIDER</Card.Title>
                 <Card.Text>
  
                   <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
-                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
-                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 246 hp @ 2,300 Rpm y Torque de 752 lb-ft @ 1200-1500 Rpm. 6 cilindros en linea, certificación de emisiones Euro V.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de Frenos</h4> Delanteros y Traseros tipo leva tambor.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema Eléctrico</h4> Sistema a 24v. Interruptor de arranque con llave. Dos baterias libres de mantenimiento de 760 A.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Eaton Fuller FSO-6406-A con Overdrive, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> Neumática de 2 bolsas. Capacidad de 12,000 Lb (5,443 Kg). Amortiguadores de servicio pesado.</ListGroup.Item>
                   </ListGroup>
 
 
@@ -120,15 +120,15 @@ function Vehiculos() {
                 <Card.ImgOverlay>
                 </Card.ImgOverlay>
               <Card.Body>
-              <Card.Title style={style.cardTitleTwo}>PICKER 8 (Falta Info)</Card.Title>
+              <Card.Title style={style.cardTitleTwo}>PICKER 8</Card.Title>
                 <Card.Text>
  
                   <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
-                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
-                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                    <ListGroup.Item ><h4>Motor</h4>Motor diésel Weichai WP5 4.98L 180 Euro 5. Potencia 177 Hp @ 2100 Rpm. Par torsional 581 Lb Ft @ 1,200-1,700 Rpm. 4 cilindros en linea 4.98 Lts de desplazamiento. Turbo cargado / post enfriado. Alternador de 28V / 150A.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de Frenos</h4> Doble sistema independiente. Ajustadores automáticos. Frenos delanteros y traseros tipo leva tambor. Compresor de aire acoplado por engranes. Tanques de aire de acero, servicio y emergencia</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema Eléctrico</h4> Sistema eléctrico a 24 volts CC con negativo a tierra, potencia y alumbrado.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> Diésel. Un tanque de acero con capacidad de 150 Lts (39.62 Gal). Filtro separador de combustible. Tanque de fluido para escape de 42 Lts de capacidad.</ListGroup.Item>
                   </ListGroup>
 
 
@@ -143,15 +143,15 @@ function Vehiculos() {
                 <Card.ImgOverlay>
                 </Card.ImgOverlay>
               <Card.Body>
-              <Card.Title style={style.cardTitleTwo}>PICKER 11 (Falta Info)</Card.Title>
+              <Card.Title style={style.cardTitleTwo}>PICKER 11</Card.Title>
                 <Card.Text>
  
                   <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
-                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
-                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                    <ListGroup.Item ><h4>Motor</h4> Weichai Wp5 4.98L 218 Hp Euro 5. Potencia 218 Hp @ 2100 Rpm. Par torsional 620 Lb-Ft @ 1,200-1,700 Rpm. 4 cilindros en linea 4.98 Lts de desplazamiento. Turbo cargado / post enfriado. Alternador de 28V / 150A.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de Frenos</h4> Sistema de frenos de aire doble independiente. Ajustadores automáticos. Frenos delanteros y traseros tipo leva tambor. Compresor de aire acoplado por engranes. Tanques de aire de acero, servicio y emergencia.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema Eléctrico</h4> Sistema eléctrico a 24 volts CC con negativo a tierra, potencia y alumbrado. Interruptor de arranque con llave. Dos baterías libres de mantenimiento 760 CCA, montadas sobre el chasis.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Manual de seis velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal). Filtro separador de combustible. Tanque de fluido para escape de 42 Lts.</ListGroup.Item>
                   </ListGroup>
 
 
@@ -193,15 +193,65 @@ function Vehiculos() {
                 <Card.ImgOverlay>
                 </Card.ImgOverlay>
               <Card.Body>
-              <Card.Title style={style.cardTitleTwo}>RIDDER G (Falta Info)</Card.Title>
+              <Card.Title style={style.cardTitleTwo}>RIDDER G</Card.Title>
                 <Card.Text>
  
                   <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
-                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
-                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                    <ListGroup.Item ><h4>Motor</h4> Cummins WestportISL G 8.9G Potencia 280 hp @ 2,000 RPM y Torque 778 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> Disco con ABS y circuito doble independiente.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 38 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Allison automática B400R con retardador incluido.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> Gas natural comprimido (GNC). Tanques tipo 4.</ListGroup.Item>
+                  </ListGroup>
+
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <br/>
+
+        <Row>
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/SILUX_8.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>SILUX 8</Card.Title>
+                <Card.Text>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 4.5, 4 cilindros en linea. Potencia 160 Ps (158 Hp) @ 2,300 RPM. Torque máx 600 Nm (442 lb-ft) @ 1,100-1,600 Rpm. Sistema eléctrico 24 V. Alternador 24V - 90 Amp.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de Frenos</h4> Sistema de frenos de aire doble independiente. Traseras tipo leva tambor.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema Eléctrico</h4> Sistema eléctrico de 24 volts CC con negativo a tierra. Alternador con regulador integrado de 90 A. Dos baterías libres de mantenimiento de 760 CCA.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Manual EATON FSB5406 de 6 velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> Diésel UBA. Un tanque de acero con capacidad de 42.24 Gal (160 Litros). Filtro separador agua/combustible. Capacidad de DEF (Fluido de Escape Diésel) de 16 Lts.</ListGroup.Item>
+                  </ListGroup>
+
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card bg="light">
+              <Card.Img variant="top" src="Assets/transfer1/SILUX_8_SUB.jpg" />
+                <Card.ImgOverlay>
+                </Card.ImgOverlay>
+              <Card.Body>
+              <Card.Title style={style.cardTitleTwo}>SILUX 8 SUB</Card.Title>
+                <Card.Text>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 4.5, 4 cilindros en linea. Potencia 160 Ps (158 Hp) @ 2,300 RPM. Torque máx 600 Nm (442 lb-ft) @ 1,100-1,600 Rpm. Sistema eléctrico 24 V. Alternador 24V - 90 Amp.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de Frenos</h4> Sistema de frenos de aire doble independiente. Traseras tipo leva tambor.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema Eléctrico</h4> Sistema eléctrico de 24 volts CC con negativo a tierra. Alternador con regulador integrado de 90 A. Dos baterías libres de mantenimiento de 760 CCA.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4> Manual EATON FSB5406 de 6 velocidades al frente y una reversa.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> Diésel UBA. Un tanque de acero con capacidad de 42.24 Gal (160 Litros). Filtro separador agua/combustible. Capacidad de DEF (Fluido de Escape Diésel) de 16 Lts.</ListGroup.Item>
                   </ListGroup>
 
 
@@ -237,56 +287,6 @@ function Vehiculos() {
             </Card>
           </Col>
 
-          <Col>
-            <Card bg="light">
-              <Card.Img variant="top" src="Assets/transfer1/SILUX_8_SUB.jpg" />
-                <Card.ImgOverlay>
-                </Card.ImgOverlay>
-              <Card.Body>
-              <Card.Title style={style.cardTitleTwo}>SILUX 8 SUB (Falta Info)</Card.Title>
-                <Card.Text>
- 
-                  <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
-                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
-                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
-                  </ListGroup>
-
-
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-
-        <br/>
-
-        <Row>
-          <Col>
-            <Card bg="light">
-              <Card.Img variant="top" src="Assets/transfer1/SILUX_8.jpg" />
-                <Card.ImgOverlay>
-                </Card.ImgOverlay>
-              <Card.Body>
-              <Card.Title style={style.cardTitleTwo}>SILUX 8 (Falta Info)</Card.Title>
-                <Card.Text>
- 
-                  <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
-                    <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
-                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
-                  </ListGroup>
-
-
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          
           <Col>
             <Card bg="light" >
               <Card.Img variant="top" src="Assets/transfer1/HUSTLER.jpg" />

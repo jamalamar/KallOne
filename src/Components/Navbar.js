@@ -54,15 +54,15 @@ function NavBar (props) {
                 <Dropdown.Menu >
                   <Dropdown.Item as={Link} to="/Vehículos">Vehículos Nuevos</Dropdown.Item>
                   <Dropdown.Divider />
-                  <Dropdown.Item><a href="http://dicomer.mx/" 
+                  <Dropdown.Item as={Link} to="/Servicios">Servicios</Dropdown.Item>                  
+                  <Dropdown.Divider />
+                  <Dropdown.Item as={Link} to="/Climatización">Equipo de Climatización</Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item as={Link} to="/Productos"><a href="http://dicomer.mx/" 
                      target='_blank'
                      style={{'textDecoration': 'none', 'color': '#000'}}>
                     Vehículos Usados
                   </a></Dropdown.Item>
-                  <Dropdown.Divider />
-                  <Dropdown.Item as={Link} to="/Climatización">Equipo de Climatización</Dropdown.Item>
-                  <Dropdown.Divider />
-                  <Dropdown.Item as={Link} to="/Servicios">Servicios</Dropdown.Item>                  
                 </Dropdown.Menu>
               </Dropdown>
               
