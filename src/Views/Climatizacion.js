@@ -8,7 +8,8 @@ function Climatizacion() {
   return (
       <Container style={style.container}>
         <h1 style={style.title}>EQUIPOS DE CLIMATIZACIÓN</h1>
-        <div style={style.divisionTwo}></div> 
+        <div style={style.divisionThree}></div> 
+        <div style={style.divisionTwo}></div>
 
         <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer2/AC 353.png" />
@@ -37,7 +38,8 @@ function Climatizacion() {
             </Card.Body>
         </Card>
 
-
+        <div style={style.divisionTwo}></div>
+        <div style={style.divisionThree}></div> 
 
     </Container>
   );
@@ -46,18 +48,18 @@ const style = {
   
   title: {
       textAlign: 'center',
-      padding: '3em 0em 0em 0em',
+      padding: '3em 0em 1em 0em',
       fontSize: '40px'
     },
     container: {
       margin: 'auto',
-      padding: '0em 2em 2em 2em',
+      padding: '0em 0em 0em 0em',
     },
     card: {
       display: 'block',
       marginLeft: 'auto',
       marginRight: 'auto',
-      width: '85%',
+      width: '100%',
     },
     cardTitle: {
       textAlign: 'justify',
@@ -79,10 +81,16 @@ const style = {
       padding: '1em 0em 0em 0em'
     },
     divisionTwo: {
-      margin: '2em 0em 2em 0em',
+      margin: '0em 0em 0em 0em',
       width: '100%',
       height: '1em',
-      backgroundColor: '#003459'
+      backgroundColor: '#55b0d6'
+  },
+    divisionThree: {
+      margin: '0em 0em 0em 0em',
+      width: '100%',
+      height: '1em',
+      backgroundColor: '#00171f'
   },
 }
 

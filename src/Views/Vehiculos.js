@@ -10,8 +10,10 @@ function Vehiculos() {
 
   return (
       <div style={style.container}>
-        <h1 style={style.title}>VEHÍCULOS</h1>
-        <div style={style.divisionTwo}></div> 
+        <h1 style={style.title}>VEHÍCULOS NUEVOS</h1>
+        <div style={style.divisionThree}></div> 
+        <div style={style.divisionTwo}></div>
+        <br/>
 
         <Row>
           <Col>
@@ -311,7 +313,9 @@ function Vehiculos() {
           </Col>
         </Row>
 
-
+        <br/>
+        <div style={style.divisionTwo}></div>
+        <div style={style.divisionThree}></div> 
     </div>
   );
 }
@@ -319,12 +323,12 @@ const style = {
   
   title: {
       textAlign: 'center',
-      padding: '2.2em 0em 0em 0em',
+      padding: '2.2em 0em 0.5em 0em',
       fontSize: '50px'
     },
     container: {
       margin: 'auto',
-      padding: '1em'
+      padding: '0em 2em 0em 2em'
     },
     card: {
  
@@ -355,10 +359,16 @@ const style = {
       padding: '1em 0em 0em 0em'
     },
     divisionTwo: {
-      margin: '2em 0em 2em 0em',
+      margin: '0em 0em 0em 0em',
       width: '100%',
       height: '1em',
-      backgroundColor: '#003459'
+      backgroundColor: '#55b0d6'
+  },
+    divisionThree: {
+      margin: '0em 0em 0em 0em',
+      width: '100%',
+      height: '1em',
+      backgroundColor: '#00171f'
   },
 }
 

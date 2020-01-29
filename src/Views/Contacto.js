@@ -14,11 +14,14 @@ function Contacto () {
 
 			<div id="form" style={style.form}>
 			    <h1 style={style.titleTwo}>INFORMACIÓN DEL CLIENTE</h1>
+			<div style={style.divisionThree}></div>
+			<div style={style.divisionTwo}></div>
 				
 				<ContactForm/>
 			</div>
 			
-			<div style={style.division}></div>
+			<div style={style.divisionTwo}></div>
+			<div style={style.divisionThree}></div>
 
 			<Jumbotron fluid style={style.header}>
 			  <Container>
@@ -54,7 +57,8 @@ function Contacto () {
 			  </Container>
 			</Jumbotron>
 
-			<div style={style.division}></div>
+			<div style={style.divisionTwo}></div>
+			<div style={style.divisionThree}></div>
 
 		</div>
 	)
@@ -85,13 +89,25 @@ const style = {
   titleTwo: {
   	fontSize: '50px',
   	textAlign: 'center',
-  	paddingTop: '2.5em'
+  	padding: '2.5em 0em 0.5em 0em'
   },
   division: {
 	margin: '0em 0em 1em 0em',
 	width: '100%',
 	height: '0.5em',
 	backgroundColor: '#55b0d6'
+  },
+    divisionTwo: {
+      margin: '0em 0em 0em 0em',
+      width: '100%',
+      height: '1em',
+      backgroundColor: '#55b0d6'
+  },
+    divisionThree: {
+      margin: '0em 0em 0em 0em',
+      width: '100%',
+      height: '1em',
+      backgroundColor: '#00171f'
   },
   info: {
   	margin: '2em',
