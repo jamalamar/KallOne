@@ -41,17 +41,13 @@ function Contacto () {
 
 				    <div style={style.division}></div>
 
-					<Col style={style.info}>
-						<h3>Dirección General</h3>
-					    <a href="tel:+52 1 55 27377893">+52 1 55 27377893</a>
-					    <br/>
-					    <a href="mailto:atanacio.ocampo@kall-one.com">atanacio.ocampo@kall-one.com</a>
-				    </Col>
 				    <Col style={style.info}>
-						<h3>Asuntos Generales</h3>
-					    <a href="tel:+(507)-6532-9577">+(507)-6532-9577</a>
+						<h2>Ventas y Cotizaciones</h2>
+					    <a href="tel:+(507)-6532-9577"><img src="/Assets/phone.png"/>(Panamá) +(507)-6532-9577</a>
 					    <br/>
-					    <a href="mailto:contacto@kall-one. com">contacto@kall-one. com</a>
+					    <a href="tel:+52 1 5515607150"><img src="/Assets/phone.png"/>(México) +52 1 5515607150</a>
+					    <br/>
+					    <a href="mailto:contacto@kall-one. com"><img src="/Assets/mail.png"/> contacto@kall-one.com</a>
 				    </Col>
 				</Row>
 			  </Container>
@@ -94,7 +90,7 @@ const style = {
   division: {
 	margin: '0em 0em 1em 0em',
 	width: '100%',
-	height: '0.5em',
+	height: '0.2em',
 	backgroundColor: '#55b0d6'
   },
     divisionTwo: {

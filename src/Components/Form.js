@@ -19,12 +19,12 @@ import Button from 'react-bootstrap/Button'
 			 <Form.Group controlId="formName&LastName">
 			  <Row>
 			    <Col>
-				  <Form.Label>Nombre</Form.Label>
+				  <Form.Label>Nombre Completo</Form.Label>
 			      <Form.Control placeholder="Ingresa Nombre" name="FirstName" required/>
 			    </Col>
 			    <Col>
-				  <Form.Label>Apellido</Form.Label>
-			      <Form.Control placeholder="Ingresa Apellido" name="LastName" required/>
+				  <Form.Label>Empresa</Form.Label>
+			      <Form.Control placeholder="Ingresa Nombre de la Empresa" name="LastName" required/>
 			    </Col>
 			  </Row>
 			 </Form.Group>
