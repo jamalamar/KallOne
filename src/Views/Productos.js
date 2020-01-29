@@ -17,7 +17,7 @@ function Productos(){
 								
 				<Row >
 					<Col lg={true} style={style.col}>
-						<Card className="bg-dark text-light" as={Link} to="/Vehículos">
+						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
 						    <Card.Body>
 						      <Card.Text>
 						        <h1 className="mb-3" stlyle={style.cardTitle}>Vehículos Nuevos</h1>
@@ -27,10 +27,8 @@ function Productos(){
 						  </Card>
 					</Col>
 
-					
-
 					<Col lg={true} style={style.col}>
-						<Card className="bg-dark text-light" as={Link} to="/Climatización" lg={true}>
+						<Card className="bg-light text-dark" as={Link} to="/Climatización" lg={true}>
 						    <Card.Body>
 						      <Card.Text>
 						        <h1 className="mb-3" stlyle={style.cardTitle}>Equipo de Climatización</h1>
@@ -39,13 +37,11 @@ function Productos(){
 							  <Card.Img src="Assets/transfer2/Climatizacion.png" alt="Equipo de climatización" stlyle={style.cardImg} />
 						  </Card>
 					</Col>
-				</Row>
 
-				<Row >
 					<Col lg={true} style={style.col}>
 						
 						<a href="http://dicomer.mx/" style={{'textDecoration': 'none'}} target="_blank">
-						<Card className="bg-dark text-light">
+						<Card className="bg-light text-dark">
 						    <Card.Body>
 						      <Card.Text>
 						        <h1 className='mb-3' stlyle={style.cardTitle}>Vehículos Usados</h1>
@@ -56,11 +52,26 @@ function Productos(){
 						 </a>
 
 					</Col>
+				</Row>
+
+				<Row >
+					<Col lg={true} style={style.col}>
+						
+						<Card className="bg-light text-dark" as={Link} to="/Contacto">
+						    <Card.Body>
+						      <Card.Text>
+						        <h1 className='mb-3' stlyle={style.cardTitle}>Pedidos Especiales</h1>
+						      </Card.Text>
+						    </Card.Body>
+							  <Card.Img src="Assets/transfer3/diagram.png" alt="Camiones" stlyle={style.cardImg} />
+						  </Card>
+
+					</Col>
 
 					
 
 					<Col lg={true} style={style.col}>
-						<Card className="bg-dark text-light" as={Link} to="/Servicios" lg={true}>
+						<Card className="bg-light text-dark" as={Link} to="/Servicios" lg={true}>
 						<Card.Body>
 						      <Card.Text>
 						        <h1 className="mb-3" stlyle={style.cardTitle}>Servicios</h1>

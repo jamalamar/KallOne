@@ -23,7 +23,7 @@ function QuienesSomos(){
 
 			<Container style={style.container}>
 			  
-			  <h1 style={style.titles}>¿QUIÉNES SOMOS?</h1>
+			  <h1 style={style.title}>¿QUIÉNES SOMOS?</h1>
 			  <div style={style.divisionTwo}></div>
 
   			  <Row style={style.rowTwo}>
@@ -69,15 +69,15 @@ function QuienesSomos(){
 			  </Row>
 
 
-			<div style={style.divisionThree}></div>
 
 			</Container>
 
+			<div style={style.divisionThree}></div>
 
 
 			<Container style={style.container}>
 			  
-			  <h1 style={style.titles}>PILARES DE LA EMPRESA</h1>
+			  <h1 style={style.titleTwo}>NUESTROS PILARES</h1>
 			  <div style={style.divisionTwo}></div>
 
   			  <Row style={style.rowTwo}>
@@ -145,8 +145,12 @@ header: {
   button: {
   	fontWeight: 'bold',
   },
-  titles: {
+  title: {
   	textAlign: 'center'
+  },
+  titleTwo: {
+  	textAlign: 'center',
+  	marginTop: '-1em'
   },
   division: {
 	margin: '-2em 0em -2em 0em',
