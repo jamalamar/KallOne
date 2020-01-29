@@ -14,7 +14,7 @@ function Home(){
 			  <Carousel.Item style={style.carouselItem}>
 			    <img
 			      className="d-block w-100"
-			      src="Assets/transfer2/Slide_One.jpg"
+			      src="Assets/transfer2/Landing3.jpg"
 			      alt="First slide"
 			    />
 			    <Carousel.Caption style={style.caption}>
@@ -27,7 +27,7 @@ function Home(){
 			  <Carousel.Item style={style.carouselItem}>
 			    <img
 			      className="d-block w-100"
-			      src="Assets/transfer2/Slide_Two.jpg"
+			      src="Assets/transfer2/Landing2.png"
 			      alt="Third slide"
 			    />
 			    <Carousel.Caption style={style.caption}>
@@ -41,7 +41,7 @@ function Home(){
 			  <Carousel.Item style={style.carouselItem}>
 			    <img
 			      className="d-block w-100"
-			      src="Assets/transfer2/Slide_One.jpg"
+			      src="Assets/transfer2/Landing1.jpg"
 			      alt="Third slide"
 			    />
 			    <Carousel.Caption style={style.caption}>
@@ -155,7 +155,7 @@ const style = {
 	caption: {
 		color: '#fff',
 		padding: '1.5em',
-		backgroundColor: 'rgba(55, 134, 195, 0.6)'
+		backgroundColor: 'rgba(0, 23, 31, 0.6)'
 	},
 	container: {
 		padding: '4em 2em 2em 2em',

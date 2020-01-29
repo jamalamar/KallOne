@@ -17,39 +17,57 @@ function Productos(){
 								
 				<Row >
 					<Col lg={true} style={style.col}>
-						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
-						  <Card.Img src="Assets/transfer2/runners.jpg" alt="Camiones" stlyle={style.cardImg} />
-						  <Card.ImgOverlay>
-						    <h1 className="mb-3" stlyle={style.cardTitle}>Vehículos</h1>
-						    {/*
-							    <Card.Text style={style.cardText}>
-							      Somos representante autorizado DINA. 
-							      Ofrecemos una amplia gama de autobuses de pasajeros y de carga,
-							       refacciones, etc. Además del servicio, mantenimiento y reparación de estos.
-							    </Card.Text>
-							*/}
-						  </Card.ImgOverlay>
-						</Card>
+						<Card className="bg-dark text-light" as={Link} to="/Vehículos">
+						    <Card.Body>
+						      <Card.Text>
+						        <h1 className="mb-3" stlyle={style.cardTitle}>Vehículos Nuevos</h1>
+						      </Card.Text>
+						    </Card.Body>
+						    <Card.Img src="Assets/transfer2/Nuevos.jpg" alt="Camiones" stlyle={style.cardImg} />
+						  </Card>
 					</Col>
 
 					
 
 					<Col lg={true} style={style.col}>
-						<Card className="bg-light text-dark" as={Link} to="/Climatización" lg={true}>
-						  <Card.Img src="Assets/transfer2/airCond.png" alt="Equipo de climatización" stlyle={style.cardImg} />
-						  <Card.ImgOverlay >
-						    <h1 className="mb-3" stlyle={style.cardTitle}>Equipo de Climatización</h1>
-						    
-						    {/*
-						    	<Card.Text style={style.cardText}>
-    						      Somos representante autorizado Eberspächer Climate Control Systems.
-    						       Ofrecemos equipos de climatización, refacciones, etc.
-    						        Además del servicio, mantenimiento, instalación y reparación de estos.
-    						    </Card.Text>
-						    */}
+						<Card className="bg-dark text-light" as={Link} to="/Climatización" lg={true}>
+						    <Card.Body>
+						      <Card.Text>
+						        <h1 className="mb-3" stlyle={style.cardTitle}>Equipo de Climatización</h1>
+						      </Card.Text>
+						    </Card.Body>
+							  <Card.Img src="Assets/transfer2/Climatizacion.png" alt="Equipo de climatización" stlyle={style.cardImg} />
+						  </Card>
+					</Col>
+				</Row>
 
-						  </Card.ImgOverlay>
-						</Card>
+				<Row >
+					<Col lg={true} style={style.col}>
+						
+						<a href="http://dicomer.mx/" style={{'textDecoration': 'none'}} target="_blank">
+						<Card className="bg-dark text-light">
+						    <Card.Body>
+						      <Card.Text>
+						        <h1 className='mb-3' stlyle={style.cardTitle}>Vehículos Usados</h1>
+						      </Card.Text>
+						    </Card.Body>
+							  <Card.Img src="Assets/transfer2/usados.jpg" alt="Camiones" stlyle={style.cardImg} />
+						  </Card>
+						 </a>
+
+					</Col>
+
+					
+
+					<Col lg={true} style={style.col}>
+						<Card className="bg-dark text-light" as={Link} to="/Servicios" lg={true}>
+						<Card.Body>
+						      <Card.Text>
+						        <h1 className="mb-3" stlyle={style.cardTitle}>Servicios</h1>
+						      </Card.Text>
+						    </Card.Body>
+							  <Card.Img src="Assets/transfer3/Servicioss.png" alt="Equipo de climatización" stlyle={style.cardImg} />
+						  </Card>
 					</Col>
 				</Row>
 					
@@ -82,7 +100,7 @@ const style = {
 	  	textAlign: 'justify'
 	  },
 	  cardImg: {
-	  	width: '545px'
+	  	width: ''
 	  },
       divisionTwo: {
 		margin: '2em 0em 2em 0em',
@@ -95,7 +113,11 @@ const style = {
 		width: '100%',
 		height: '1em',
 		backgroundColor: '#55b0d6'
+	  },
+	  cardTitle: {
+	  	backgroundColor: 'rgba(0,0,0,0.5)'
 	  }
-}
+
+}		
 
 export default Productos;
