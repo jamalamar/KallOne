@@ -15,29 +15,6 @@ function Vehiculos() {
 
         <Row>
           <Col>
-            <Card bg="light" >
-              <Card.Img variant="top" src="Assets/transfer1/HUSTLER.jpg" />
-                <Card.ImgOverlay>
-                            
-                </Card.ImgOverlay>
-
-              <Card.Body>
-                <Card.Title style={style.cardTitleTwo}>HUSTLER</Card.Title>
-                <Card.Text >
- 
-                  <ListGroup variant='flush'>
-                    <ListGroup.Item >Su estructura galvanizada, con el eje montado sobre el
-                     chasis y sin suspensión, es resultado de la fusión entre tecnología
-                      y armado que día con día tiene lugar en nuestra planta de Ciudad Sahagún,
-                       Hidalgo.</ListGroup.Item>
-                  </ListGroup>
-
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        
-          <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/LINNER.jpg" />
                 <Card.ImgOverlay>
@@ -59,11 +36,7 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
 
-        <br/>
-
-        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/LINNER_12.jpg" />
@@ -86,7 +59,11 @@ function Vehiculos() {
               </Card.Body>
             </Card>        
           </Col>
+        </Row>
 
+        <br/>
+
+        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/LINNER_2020.jpg" />
@@ -109,11 +86,7 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col> 
-        </Row>
 
-        <br/>
-
-        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/OUTSIDER.jpg" />
@@ -136,7 +109,11 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
-        
+        </Row>
+
+        <br/>
+
+        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/PICKER_8.jpg" />
@@ -159,11 +136,7 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
 
-        <br/>
-
-        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/PICKER_11.jpg" />
@@ -186,7 +159,11 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
+        </Row>
 
+        <br/>
+
+        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/RIDDER_E.jpg" />
@@ -209,11 +186,7 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
 
-        <br/>
-
-        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/RIDDER_G.jpg" />
@@ -236,7 +209,11 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
+        </Row>
 
+        <br/>
+
+        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/RUNNER_2020.jpg" />
@@ -259,11 +236,7 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
 
-        <br/>
-
-        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/SILUX_8_SUB.jpg" />
@@ -286,7 +259,11 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
+        </Row>
 
+        <br/>
+
+        <Row>
           <Col>
             <Card bg="light">
               <Card.Img variant="top" src="Assets/transfer1/SILUX_8.jpg" />
@@ -304,6 +281,29 @@ function Vehiculos() {
                     <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
                   </ListGroup>
 
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          
+          <Col>
+            <Card bg="light" >
+              <Card.Img variant="top" src="Assets/transfer1/HUSTLER.jpg" />
+                <Card.ImgOverlay>
+                            
+                </Card.ImgOverlay>
+
+              <Card.Body>
+                <Card.Title style={style.cardTitleTwo}>HUSTLER</Card.Title>
+                <Card.Text >
+ 
+                  <ListGroup variant='flush'>
+                    <ListGroup.Item >Su estructura galvanizada, con el eje montado sobre el
+                     chasis y sin suspensión, es resultado de la fusión entre tecnología
+                      y armado que día con día tiene lugar en nuestra planta de Ciudad Sahagún,
+                       Hidalgo.</ListGroup.Item>
+                  </ListGroup>
 
                 </Card.Text>
               </Card.Body>
