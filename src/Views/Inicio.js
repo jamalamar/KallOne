@@ -68,6 +68,7 @@ function Home(){
 			</Carousel>
 
 			<div style={style.division}></div>
+			<div style={style.divisionFour}></div>
 
 			<Container style={style.container}>
 			  <Row style={style.rowOne}>
@@ -85,6 +86,7 @@ function Home(){
 					<p>Ambas líneas de negocio cuentan con los más altos estándares de calidad y la tecnología más avanzada.</p>
 			    </Col>
 			  </Row>
+
 
 			<div style={style.divisionTwo}></div>
 
@@ -141,6 +143,8 @@ function Home(){
 
 			</Container>		
 
+		<div style={style.divisionFour}></div>
+		<div style={style.division}></div>
 		</div>
 	)
 }
@@ -165,8 +169,8 @@ const style = {
 	division: {
 		margin: '0em 0em 0em 0em',
 		width: '100%',
-		height: '2em',
-		backgroundColor: '#55b0d6'
+		height: '1em',
+		backgroundColor: '#00171f'
 	},
 	divisionTwo: {
 		margin: '2em 0em 2em 0em',
@@ -178,6 +182,12 @@ const style = {
 		margin: '0.5em 0em 0.5em 0em',
 		width: '100%',
 		height: '0.1em',
+		backgroundColor: '#55b0d6'
+	},
+	divisionFour: {
+		margin: '0em 0em 0em 0em',
+		width: '100%',
+		height: '1em',
 		backgroundColor: '#55b0d6'
 	},
 	rowOne: {

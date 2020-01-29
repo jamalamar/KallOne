@@ -20,6 +20,7 @@ function QuienesSomos(){
 			</Jumbotron>
 
 			<div style={style.division}></div>
+			<div style={style.divisionSix}></div>
 
 			<Container style={style.container}>
 			  
@@ -72,17 +73,19 @@ function QuienesSomos(){
 
 			</Container>
 
+			<div style={style.division}></div>
 			<div style={style.divisionThree}></div>
 
 
 			<Container style={style.container}>
 			  
 			  <h1 style={style.titleTwo}>NUESTROS PILARES</h1>
-			  <div style={style.divisionTwo}></div>
+
+			  
 
   			  <Row style={style.rowTwo}>
 			    <Col lg={true}>
-			    	<h3>VISIÓN GLOBAL DE NEGOCIOS</h3>
+			    	<h3 style={style.titleFour}>VISIÓN GLOBAL DE NEGOCIOS</h3>
 					<p>Para alcanzar cada objetivo planteado, cada colaborador tiene una visión
 						integral de la empresa y los socios de negocio.</p>
 				</Col>
@@ -90,17 +93,17 @@ function QuienesSomos(){
 				<div style={style.divisionFive}></div>
 
 			    <Col lg={true}>
-			    	<h3>INNOVACIÓN EN LOS PROCESOS</h3>
+			    	<h3 style={style.titleFour}>INNOVACIÓN EN LOS PROCESOS</h3>
 					<p>Cada solución entregada al cliente es desarrollada a partir de las mejores
 						prácticas de la industria, encaminadas siempre a una mayor eficiencia y durabilidad.</p>
 				</Col>
 			  </Row>
 
-			  <div style={style.divisionFour}></div>
+			  
 			  
 			  <Row>
 			    <Col lg={true}>
-			    	<h3>CALIDAD EN LOS PRODUCTOS</h3>
+			    	<h3 style={style.titleFour}>CALIDAD EN LOS PRODUCTOS</h3>
 					<p>Nuestros proveedores se ocupan de cumplir con los más altos estándares
 							internacionales de calidad y así asegurarnos de la entrega de valor en cada
 							producto vendido.</p>
@@ -109,16 +112,64 @@ function QuienesSomos(){
 				<div style={style.divisionFive}></div>
 
 			    <Col lg={true}>
-			    	<h3>PROFESIONALISMO Y COMPROMISO</h3>
+			    	<h3 style={style.titleFour}>PROFESIONALISMO Y COMPROMISO</h3>
 					<p>Desempeñamos cada actividad dentro y fuera de la empresa de manera profesional con un total y estricto compromiso y responsabilidad hacia cada
 						socio de negocio.</p>
 				</Col>
 			  </Row>
 
+			  <br/>
+			
+			</Container>
+			
 
+			<div style={style.division}></div>
 			<div style={style.divisionThree}></div>
 
-			</Container>
+
+			<Container style={style.containerTwo}>
+			  
+			  <Row style={style.rowTwo}>
+				  
+
+				    <Col lg={true}>
+					  <h1 style={style.titleThree}>VALORES</h1>
+					  <div style={style.divisionFour}></div>
+						<ul>
+							<li style={style.listItem}>COMPROMISO EN EL CUMPLIMIENTO DE LAS SOLICITUDES DE NUESTROS CLIENTES</li>
+							<li style={style.listItem}>DISCIPLINA Y EXIGENCIA EN LA ENTREGA DE VALOR A NUESTROS CLIENTES Y ACCIONISTAS</li>
+							<li style={style.listItem}>PROFESIONALISMO E INNOVACIÓN</li>
+							<li style={style.listItem}>CALIDAD EN CADA PRODUCTO Y SERVICIO</li>
+							<li style={style.listItem}>RESPETO</li>
+							<li style={style.listItem}>VISIÓN INTEGRAL Y DE LARGO PLAZO</li>
+							<li style={style.listItem}>SEGURIDAD PARA NUESTROS COLABORADORES, CLIENTES, SOCIEDAD Y MEDIO AMBIENTE</li>
+						</ul>
+					</Col>
+					
+					<div style={style.divisionFive}></div>
+
+				    <Col lg={true}>
+					    <h1 style={style.titleThree}>CODIGO DE CONDUCTA</h1>
+					    <div style={style.divisionFour}></div>
+						<ul>
+							<li style={style.listItem}>CUMPLIMIENTO DE LA LEGALIDAD</li>
+							<li style={style.listItem}>RESPETO DE LOS DERECHOS HUMANOS Y LA DIVERSIDAD</li>
+							<li style={style.listItem}>ASEGURAMIENTO DE LA SALUD Y SEGURIDAD FÍSICA</li>
+							<li style={style.listItem}>PROHIBICIÓN DE LA CORRUPCIÓN</li>
+							<li style={style.listItem}>RESPETO DEL MEDIO AMBIENTE</li>
+						</ul>
+					</Col>
+				
+
+				  <div style={style.divisionFour}></div>
+			  
+			  </Row>
+			 </Container>
+
+
+			 <div style={style.divisionThree}></div>
+			 <div style={style.divisionSeven}></div>
+
 
 
 		</div>
@@ -150,12 +201,28 @@ header: {
   },
   titleTwo: {
   	textAlign: 'center',
-  	marginTop: '-1em'
+  	margin: '-1em 0em 1em 0em',
+  	backgroundColor: '',
+  	color: '#000'
+  },
+  titleThree: {
+  	textAlign: 'center',
+  	padding: '0.5em 0em 0em 0em',
+  	marginTop: '-1em',
+  	backgroundColor: '',
+  	fontSize: '24px',
+  	color: '#000'
+  },
+  titleFour: {
+  	textAlign: 'center',
+  	margin: '0em 0em 1em 0em',
+  	backgroundColor: '#55b0d6',
+  	color: '#fff'
   },
   division: {
 	margin: '-2em 0em -2em 0em',
 	width: '100%',
-	height: '2em',
+	height: '1em',
 	backgroundColor: '#00171f'
   },
   divisionTwo: {
@@ -182,16 +249,34 @@ header: {
 	height: '',
 	backgroundColor: '#fff'
   },
+  divisionSix: {
+	margin: '2em 0em -3em 0em',
+	width: '100%',
+	height: '1em',
+	backgroundColor: '#55b0d6'
+  },
+  divisionSeven: {
+	margin: '0em 0em 0em 0em',
+	width: '100%',
+	height: '1em',
+	backgroundColor: '#00171f'
+  },
   container: {
 	padding: '4em 2em 2em 2em',
 	fontSize: '20px',
 	textAlign: 'justify'
-},
+  },
+  containerTwo: {
+	padding: '4em 2em 2em 2em',
+	fontSize: '10px',
+	textAlign: 'justify',
+	letterSpacing: '',
+  },
   badge: {
   	textAlign: 'center',
   },
-  log: {
-  	width: ''
+  listItem: {
+  	padding: '0.5em'
   }
 }
 

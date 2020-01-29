@@ -6,7 +6,7 @@ function Footer (){
 
 		<footer class="page-footer font-small blue pt-1" style={style.footer}>
 		  {/* Copyright */}
-		  <div class="footer-copyright text-center py-3">© 2019 Copyright: 
+		  <div class="footer-copyright text-center py-3">© 2020 Copyright: 
 		    <a> KALL ONE LTDA S.A.</a>
 		  </div>
 		</footer>
