@@ -20,11 +20,11 @@ import Button from 'react-bootstrap/Button'
 			  <Row>
 			    <Col>
 				  <Form.Label>Nombre Completo</Form.Label>
-			      <Form.Control placeholder="Ingresa Nombre" name="FirstName" required/>
+			      <Form.Control placeholder="Ingresa Nombre" name="Nombre" required/>
 			    </Col>
 			    <Col>
 				  <Form.Label>Empresa</Form.Label>
-			      <Form.Control placeholder="Ingresa Nombre de la Empresa" name="LastName" required/>
+			      <Form.Control placeholder="Ingresa Nombre de la Empresa" name="Empresa" required/>
 			    </Col>
 			  </Row>
 			 </Form.Group>
@@ -33,11 +33,11 @@ import Button from 'react-bootstrap/Button'
 			  <Row>
 			    <Col>
 				  <Form.Label>País</Form.Label>
-			      <Form.Control placeholder="Ingresa País" name="Country" required/>
+			      <Form.Control placeholder="Ingresa País" name="País" required/>
 			    </Col>
 			    <Col>
 				  <Form.Label>Teléfono</Form.Label>
-			      <Form.Control placeholder="Ingresa Numero Telefónico" name="Phone" required/>
+			      <Form.Control placeholder="Ingresa Numero Telefónico" name="Teléfono" required/>
 			    </Col>
 			  </Row>
 			 </Form.Group>						 
@@ -46,7 +46,7 @@ import Button from 'react-bootstrap/Button'
 			  <Row>
 			   <Col>
 			    <Form.Label>Correo Electrónico</Form.Label>
-			    <Form.Control type="email" placeholder="Ingresa Correo Electrónico" name="Email" required/>
+			    <Form.Control type="email" placeholder="Ingresa Correo Electrónico" name="E-Mail" required/>
 			    <Form.Text className="text-muted">
 			      Nunca compartiremos su correo electrónico con nadie más.
 			    </Form.Text>
