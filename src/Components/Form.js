@@ -14,7 +14,7 @@ import Button from 'react-bootstrap/Button'
 			<Form name="KallOneContactForm" method="post" style={style.form}>
 
 				{/*Value set to the same of the Form on Index.html*/}
-			    <input type="hidden" name="form-name" value="JinxContactForm" />
+			    <input type="hidden" name="form-name" value="KallOneContactForm" />
 
 			 <Form.Group controlId="formName&LastName">
 			  <Row>
