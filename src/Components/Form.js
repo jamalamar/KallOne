@@ -43,13 +43,22 @@ import Button from 'react-bootstrap/Button'
 			 </Form.Group>						 
 
 			  <Form.Group controlId="formBasicEmail">
+			  <Row>
+			   <Col>
 			    <Form.Label>Correo Electrónico</Form.Label>
 			    <Form.Control type="email" placeholder="Ingresa Correo Electrónico" name="Email" required/>
 			    <Form.Text className="text-muted">
 			      Nunca compartiremos su correo electrónico con nadie más.
 			    </Form.Text>
-			  </Form.Group>
+				</Col>
 
+			    <Col>
+				  <Form.Label>Puesto que ocupa en la Empresa</Form.Label>
+			      <Form.Control placeholder="Ingresa Puesto" name="LastName" required/>
+			    </Col>
+			    </Row>
+				
+				</Form.Group>
 
 			  <Form.Group controlId="exampleForm.ControlTextarea1">
 			    <Form.Label>Mensaje</Form.Label>

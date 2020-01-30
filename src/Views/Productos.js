@@ -51,6 +51,7 @@ function Productos(){
 							  <Card.Img src="Assets/transfer2/usados.jpg" alt="Camiones" stlyle={style.cardImg} />
 						  </Card>
 						 </a>
+						 <p style={style.disclaimer}>*Precios indicativos. Para Panamá consulte disponibilidad y precios.</p>
 
 					</Col>
 				</Row>
@@ -69,16 +70,26 @@ function Productos(){
 
 					</Col>
 
+					<Col lg={true} style={style.col}>
+						<Card className="bg-light text-dark" as={Link} to="/Contacto" lg={true}>
+						<Card.Body>
+						      <Card.Text>
+						        <h3 className="mb-1" stlyle={style.cardTitle}>Refacciones</h3>
+						      </Card.Text>
+						    </Card.Body>
+							  <Card.Img src="Assets/transfer3/Servicioss.png" alt="Equipo de climatización" stlyle={style.cardImg} />
+						  </Card>
+					</Col>
 					
 
 					<Col lg={true} style={style.col}>
 						<Card className="bg-light text-dark" as={Link} to="/Contacto" lg={true}>
 						<Card.Body>
 						      <Card.Text>
-						        <h3 className="mb-1" stlyle={style.cardTitle}>Refacciones y Servicios</h3>
+						        <h3 className="mb-1" stlyle={style.cardTitle}>Servicios</h3>
 						      </Card.Text>
 						    </Card.Body>
-							  <Card.Img src="Assets/transfer3/Servicioss.png" alt="Equipo de climatización" stlyle={style.cardImg} />
+							  <Card.Img src="Assets/transfer3/servicio.png" alt="Equipo de climatización" stlyle={style.cardImg} />
 						  </Card>
 					</Col>
 				</Row>
@@ -139,6 +150,10 @@ const style = {
 	  },
 	  cardTitle: {
 	  	backgroundColor: 'rgba(0,0,0,0.5)'
+	  },
+	  disclaimer: {
+	  	color: 'rgba(0,0,0,0.5)',
+	  	fontSize: '12px'
 	  }
 
 }		

@@ -272,15 +272,15 @@ function Vehiculos() {
                 <Card.ImgOverlay>
                 </Card.ImgOverlay>
               <Card.Body>
-              <Card.Title style={style.cardTitleTwo}>RUNNER 2020 (Falta Info)</Card.Title>
+              <Card.Title style={style.cardTitleTwo}>RUNNER (8, 9, 10 y 11)</Card.Title>
                 <Card.Text>
  
                   <ListGroup >
                     <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 41 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de frenos</h4> Doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de asientos</h4> 27 - 45 asientos de plástico.</ListGroup.Item>
                     <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
-                    <ListGroup.Item><h4>Combustible</h4> diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> Diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
                   </ListGroup>
 
 

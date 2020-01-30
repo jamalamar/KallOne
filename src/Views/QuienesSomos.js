@@ -29,24 +29,6 @@ function QuienesSomos(){
 
   			  <Row style={style.rowTwo}>
 			    <Col lg={true}>
-			    	<h3>NUESTRA PROPUESTA DE VALOR</h3>
-					<p>En Kall One concentramos nuestros esfuerzos en brindar valor a cada uno 
-						de nuestros clientes, ofreciéndoles siempre las mejores marcas del mercado 
-						y soluciones integrales desarrolladas por un equipo especializado con una 
-						estricta orientación de servicio al cliente.</p>
-				</Col>
-				<Col lg={true} >
-					<div style={style.badge}>
-						<img src="/Assets/SatisfactionBadge.png"/>
-					</div>
-				</Col>
-				
-			  </Row>
-
-			  <div style={style.divisionFour}></div>
-
-  			  <Row style={style.rowTwo}>
-			    <Col lg={true}>
 			    	<h3>POLÍTICA DE CALIDAD</h3>
 					<p>En Kall One ofrecemos al mercado autobuses, refacciones automotrices, 
 						equipos de aire acondicionado y calefactores de las mejores marcas existentes 
@@ -55,6 +37,18 @@ function QuienesSomos(){
 				</Col>
 				<div style={style.divisionFive}></div>
 			    <Col lg={true}>
+			    	<h3>NUESTRA PROPUESTA DE VALOR</h3>
+					<p>En Kall One concentramos nuestros esfuerzos en brindar valor a cada uno 
+						de nuestros clientes, ofreciéndoles siempre las mejores marcas del mercado 
+						y soluciones integrales desarrolladas por un equipo especializado con una 
+						estricta orientación de servicio al cliente.</p>
+				</Col>
+			  </Row>
+
+			  <div style={style.divisionFour}></div>
+
+  			  <Row style={style.rowTwo}>
+				<Col lg={true}>
 			    	<h3>OBJETIVOS DE CALIDAD</h3>
 					<ul>
 						<li>Asegurar que los autobuses, equipos de climatización y refacciones ofrecidas 
@@ -67,6 +61,12 @@ function QuienesSomos(){
 							los socios de la empresa.</li>
 					</ul>
 				</Col>
+				<Col lg={true} >
+					<div style={style.badge}>
+						<img src="/Assets/SatisfactionBadge.png"/>
+					</div>
+				</Col>
+				
 			  </Row>
 
 
@@ -134,29 +134,30 @@ function QuienesSomos(){
 
 				    <Col lg={true}>
 					  <h1 style={style.titleThree}>VALORES</h1>
-					  <div style={style.divisionFour}></div>
+					  
 						<ul>
-							<li style={style.listItem}>COMPROMISO EN EL CUMPLIMIENTO DE LAS SOLICITUDES DE NUESTROS CLIENTES</li>
-							<li style={style.listItem}>DISCIPLINA Y EXIGENCIA EN LA ENTREGA DE VALOR A NUESTROS CLIENTES Y ACCIONISTAS</li>
-							<li style={style.listItem}>PROFESIONALISMO E INNOVACIÓN</li>
-							<li style={style.listItem}>CALIDAD EN CADA PRODUCTO Y SERVICIO</li>
-							<li style={style.listItem}>RESPETO</li>
-							<li style={style.listItem}>VISIÓN INTEGRAL Y DE LARGO PLAZO</li>
-							<li style={style.listItem}>SEGURIDAD PARA NUESTROS COLABORADORES, CLIENTES, SOCIEDAD Y MEDIO AMBIENTE</li>
+							<li style={style.listItem}>Compromiso en el cumplimiento de las solicitudes de nuestros clientes</li>
+							<li style={style.listItem}>Disciplina y exigencia en la entrega de valor a nuestros clientes y accionistas</li>
+							<li style={style.listItem}>Profesionalismo e innovación</li>
+							<li style={style.listItem}>Calidad en cada producto y servicio</li>
+							<li style={style.listItem}>Respeto</li>
+							<li style={style.listItem}>Visión integral y de largo plazo</li>
+							<li style={style.listItem}>Seguridad para nuestros colaboradores, clientes, sociedad y medio ambiente</li>
 						</ul>
 					</Col>
 					
 					<div style={style.divisionFive}></div>
+					<div style={style.divisionFive}></div>
 
 				    <Col lg={true}>
-					    <h1 style={style.titleThree}>CODIGO DE CONDUCTA</h1>
-					    <div style={style.divisionFour}></div>
+					    <h1 style={style.titleThree}>CÓDIGO DE CONDUCTA</h1>
+					    
 						<ul>
-							<li style={style.listItem}>CUMPLIMIENTO DE LA LEGALIDAD</li>
-							<li style={style.listItem}>RESPETO DE LOS DERECHOS HUMANOS Y LA DIVERSIDAD</li>
-							<li style={style.listItem}>ASEGURAMIENTO DE LA SALUD Y SEGURIDAD FÍSICA</li>
-							<li style={style.listItem}>PROHIBICIÓN DE LA CORRUPCIÓN</li>
-							<li style={style.listItem}>RESPETO DEL MEDIO AMBIENTE</li>
+							<li style={style.listItem}>Cumplimiento de la legalidad</li>
+							<li style={style.listItem}>Respeto de los derechos humanos y la diversidad</li>
+							<li style={style.listItem}>Aseguramiento de la salud y seguridad física</li>
+							<li style={style.listItem}>Prohibición de la corrupción</li>
+							<li style={style.listItem}>Respeto del medio ambiente</li>
 						</ul>
 					</Col>
 				
@@ -207,11 +208,12 @@ header: {
   },
   titleThree: {
   	textAlign: 'center',
-  	padding: '0.5em 0em 0em 0em',
-  	marginTop: '-1em',
+  	padding: '0em 0em 0em 0em',
+  	marginTop: '',
   	backgroundColor: '',
-  	fontSize: '24px',
-  	color: '#000'
+  	fontSize: '28px',
+  	color: '#55b0d6',
+  	backgroundColor: '#fff'
   },
   titleFour: {
   	textAlign: 'center',
@@ -267,16 +269,25 @@ header: {
 	textAlign: 'justify'
   },
   containerTwo: {
-	padding: '4em 2em 2em 2em',
+	padding: '4em 4em 2em 4em',
 	fontSize: '10px',
 	textAlign: 'justify',
 	letterSpacing: '',
   },
   badge: {
   	textAlign: 'center',
+  	opacity: '0.9',
+  	paddingTop: '3em'
   },
   listItem: {
-  	padding: '0.5em'
+  	padding: '0.5em',
+  	fontSize: '20px',
+  	whiteSpace: '',
+  },
+  lowercase: {
+  	textTransform: 'lowercase',
+  	whiteSpace: '',
+  	
   }
 }
 
