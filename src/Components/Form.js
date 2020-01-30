@@ -54,7 +54,7 @@ import Button from 'react-bootstrap/Button'
 
 			    <Col>
 				  <Form.Label>Puesto que ocupa en la Empresa</Form.Label>
-			      <Form.Control placeholder="Ingresa Puesto" name="LastName" required/>
+			      <Form.Control placeholder="Ingresa Puesto" name="Puesto" required/>
 			    </Col>
 			    </Row>
 				
