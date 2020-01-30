@@ -43,9 +43,9 @@ function Contacto () {
 
 				    <Col style={style.info}>
 						<h2>Ventas y Cotizaciones</h2>
-					    <a href="tel:+(507)-6532-9577"><img src="/Assets/phone.png"/>(Panamá) +(507)-6532-9577</a>
+					    <a href="tel:+50765329577"><img src="/Assets/phone.png"/>(Panamá) +507 65329577</a>
 					    <br/>
-					    <a href="tel:+52 1 5515607150"><img src="/Assets/phone.png"/>(México) +52 1 5515607150</a>
+					    <a href="tel:+5215515607150"><img src="/Assets/phone.png"/>(México) +521 5515607150</a>
 					    <br/>
 					    <a href="mailto:contacto@kall-one. com"><img src="/Assets/mail.png"/> contacto@kall-one.com</a>
 				    </Col>

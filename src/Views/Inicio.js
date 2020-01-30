@@ -151,10 +151,11 @@ function Home(){
 
 const style = {
 	carousel: {
-		padding: '5em 0em 0em 0em'
+		padding: '0em 0em 0em 0em',
+		marginTop: '5em' 
 	},
 	carouselItem: {
-		height: '450px',
+		height: '480px',
 	},
 	caption: {
 		color: '#fff',
@@ -162,7 +163,7 @@ const style = {
 		backgroundColor: 'rgba(0, 23, 31, 0.6)'
 	},
 	container: {
-		padding: '4em 2em 2em 2em',
+		padding: '2em 2em 2em 2em',
 		fontSize: '20px',
 		textAlign: 'justify'
 	},
@@ -197,7 +198,8 @@ const style = {
 
 	},
 	titles: {
-		textAlign: "left"
+		textAlign: "left",
+
 	}
 }
 
