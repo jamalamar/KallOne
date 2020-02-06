@@ -16,6 +16,8 @@ function Productos(){
 				<div style={style.divisionFour}></div>
 				<div style={style.divisionTwo}></div>
 
+				<br/>
+
 				<Row >
 					<Col lg={true} style={style.col}>
 						<Card className="bg-light text-dark" as={Link} to="/Vehículos">
@@ -116,13 +118,10 @@ const style = {
 	  	padding: '0em 0em 4em 0em'
 	  },
 	  col: {
-	  	padding: '1.5em'
+	  	padding: '1em'
 	  },
 	  card: {
 	  	width: '100%'
-	  },
-	  cardTitle: {
-	  	fontSize: '20px'
 	  },
 	  cardText: {
 	  	textAlign: 'justify'
