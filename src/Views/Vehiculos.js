@@ -276,9 +276,9 @@ function Vehiculos() {
                 <Card.Text>
  
                   <ListGroup >
-                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
-                    <ListGroup.Item><h4>Sistema de frenos</h4> Doble sistema independiente y secador de aire automático.</ListGroup.Item>
-                    <ListGroup.Item><h4>Número de asientos</h4> 27 - 45 asientos de plástico.</ListGroup.Item>
+                    <ListGroup.Item ><h4>Motor</h4> Cummins ISB 6.7L. Potencia 200 hp @ 2,300 RPM y Torque de 520 lb-ft.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de Frenos</h4> Doble sistema independiente y secador de aire automático.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de Asientos</h4> 27 - 45 asientos de plástico.</ListGroup.Item>
                     <ListGroup.Item><h4>Transmisión</h4> Fuller FSB-5406- B, manual de seis velocidades al frente y una reversa.</ListGroup.Item>
                     <ListGroup.Item><h4>Combustible</h4> Diésel. Un tanque de acero con capacidad de 204 Lts (54 Gal).</ListGroup.Item>
                   </ListGroup>
@@ -289,6 +289,35 @@ function Vehiculos() {
             </Card>
           </Col>
 
+          <Col>
+            <Card bg="light" >
+              <Card.Img variant="top" src="Assets/transfer1/Brighter.png" />
+                <Card.ImgOverlay>
+                            
+                </Card.ImgOverlay>
+
+              <Card.Body>
+                <Card.Title style={style.cardTitleTwo}>BRIGHTER</Card.Title>
+                <Card.Text>
+ 
+                  <ListGroup >
+                    <ListGroup.Item ><h4>Motor</h4>Cummins ISM 10.8L. Potencia 380 hp @ 1,600 RPM y Torque de 1200 lb-ft @ 1,400 RPM. 6 Cilindros en línea, Certificación de emisiones Euro 5.</ListGroup.Item>
+                    <ListGroup.Item><h4>Sistema de Frenos</h4>Doble sistema independiente, Frenos de disco en totas las ruedas, ABS con ATC.</ListGroup.Item>
+                    <ListGroup.Item><h4>Número de Asientos</h4>38 Asientos plásticos, 165 pasajeros totales. Área para discapacitados en la primera puerta de acceso con 2 corralillos.</ListGroup.Item>
+                    <ListGroup.Item><h4>Transmisión</h4>Allison,  automática  de  6  velocidades  y  una  reversa  con  retardador integrado.</ListGroup.Item>
+                    <ListGroup.Item><h4>Combustible</h4> Diésel. Dos tanques de plástico con capacidad de 210 Lts cada uno (111 Gal).</ListGroup.Item>
+                  </ListGroup>
+
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <br/>
+
+        <Row>
           <Col>
             <Card bg="light" >
               <Card.Img variant="top" src="Assets/transfer1/HUSTLER.jpg" />
@@ -311,7 +340,13 @@ function Vehiculos() {
               </Card.Body>
             </Card>
           </Col>
+
+          <Col>
+
+          </Col>
         </Row>
+
+
 
         <br/>
         <div style={style.divisionTwo}></div>
