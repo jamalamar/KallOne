@@ -31,15 +31,9 @@ function NavBar (props) {
               </Dropdown.Toggle>
 
               <Dropdown.Menu>
-                <Dropdown.Item>
-                  <a HREF="tel:+50765329577"><img src="/Assets/phone.png"/>(Panamá) +507 65329577</a>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <a HREF="tel:+5215515607150"><img src="/Assets/phone.png"/>(México) +521 5515607150</a>
-                </Dropdown.Item>
-                <Dropdown.Item >
-                  <a HREF="mailto:contacto@kall-one.com"><img src="/Assets/mail.png"/>contacto@kall-one.com</a>
-                </Dropdown.Item>
+                <Dropdown.Item href="tel:+50765329577"><img src="/Assets/phone.png"/>(Panamá) +507 65329577</Dropdown.Item>
+                <Dropdown.Item href="tel:+5215515607150"><img src="/Assets/phone.png"/>(México) +521 5515607150</Dropdown.Item>
+                <Dropdown.Item href="mailto:contacto@kall-one.com"><img src="/Assets/mail.png"/>contacto@kall-one.com</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             
