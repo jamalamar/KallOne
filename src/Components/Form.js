@@ -47,14 +47,11 @@ import Button from 'react-bootstrap/Button'
 			   <Col>
 			    <Form.Label>Correo Electrónico</Form.Label>
 			    <Form.Control type="email" placeholder="Ingresa Correo Electrónico" name="E-Mail" required/>
-			    <Form.Text className="text-muted">
-			      Nunca compartiremos su correo electrónico con nadie más.
-			    </Form.Text>
 				</Col>
 
 			    <Col>
-				  <Form.Label>Puesto que ocupa en la Empresa</Form.Label>
-			      <Form.Control placeholder="Ingresa Puesto" name="Puesto" required/>
+				  <Form.Label>Puesto</Form.Label>
+			      <Form.Control placeholder="Ingresa Puesto que ocupa en la Empresa" name="Puesto" required/>
 			    </Col>
 			    </Row>
 				
@@ -63,6 +60,9 @@ import Button from 'react-bootstrap/Button'
 			  <Form.Group controlId="exampleForm.ControlTextarea1">
 			    <Form.Label>Mensaje</Form.Label>
 			    <Form.Control as="textarea" rows="3" name="Message"/>
+			    <Form.Text className="text-muted">
+			      *Nunca compartiremos su información personal con nadie más.
+			    </Form.Text>
 			  </Form.Group>
 
 			  <Button variant="primary" type="submit">
