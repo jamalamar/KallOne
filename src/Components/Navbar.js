@@ -15,7 +15,8 @@ function NavBar (props) {
   return (
     <div className="App">
         <Navbar 
-          collapseOnSelect expand="lg" 
+          collapseOnSelect
+          expand="lg" 
           fixed="top"
           style={style.nav}
           bg='light'
@@ -45,33 +46,34 @@ function NavBar (props) {
           
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav" >
-              <Nav className="ml-auto" style={style.navItems} collapseOnSelect={true}>
-              <Button as={Link} to='/' style={style.link} variant="light">Inicio</Button>
-              <Button as={Link} to="/QuienesSomos" style={style.link} variant="light">Quiénes Somos</Button>
+              <Nav className="ml-auto" style={style.navItems}>
+              <Nav.Link href="#" style={style.link}><Button as={Link} to='/' variant="light">Inicio</Button></Nav.Link>
+              <Nav.Link href="#" style={style.link}><Button as={Link} to='/Productos' variant="light">Productos</Button></Nav.Link>
               
-              <Dropdown as={Link} as={Button} to='/Productos' variant="link" style={style.dropdown}>
-                <Button as={Link} to='/Productos' style={style.link} variant="light">Productos</Button>
+              
+              <Dropdown as={Link} to='/Productos' variant="link" style={style.dropdown}>
 
                 <Dropdown.Toggle split variant="light" id="dropdown-split-basic"/>
 
                 <Dropdown.Menu >
-                  <Dropdown.Item as={Link} to="/Vehículos">Vehículos Nuevos</Dropdown.Item>
+                  <Nav.Link href="#"><Dropdown.Item as={Link} to="/Vehículos">Vehículos Nuevos</Dropdown.Item></Nav.Link>
                   <Dropdown.Divider />
-                  <Dropdown.Item as={Link} to="/Climatización">Equipo de Climatización</Dropdown.Item>
+                  <Nav.Link href="#"><Dropdown.Item as={Link} to="/Climatización">Equipo de Climatización</Dropdown.Item></Nav.Link>
                   <Dropdown.Divider />
-                  <Dropdown.Item as={Link} to="/Contacto">Proyectos Especiales</Dropdown.Item>                  
+                  <Nav.Link href="#"><Dropdown.Item as={Link} to="/Contacto">Proyectos Especiales</Dropdown.Item></Nav.Link>                 
                   <Dropdown.Divider />
-                  <Dropdown.Item as={Link} to="/Contacto">Servicios y Refacciones</Dropdown.Item>                  
+                  <Nav.Link href="#"><Dropdown.Item as={Link} to="/Contacto">Servicios y Refacciones</Dropdown.Item></Nav.Link>                  
                   <Dropdown.Divider />
-                  <Dropdown.Item as={Link} to="/Productos"><a href="http://dicomer.mx/" 
+                  <Nav.Link href="#"><Dropdown.Item as={Link} to="/Productos"><a href="http://dicomer.mx/" 
                      target='_blank'
                      style={{'textDecoration': 'none', 'color': '#000'}}>
                     Vehículos Seminuevos
-                  </a></Dropdown.Item>
+                  </a></Dropdown.Item></Nav.Link>
                 </Dropdown.Menu>
               </Dropdown>
               
-              <Button as={Link} to='/Contacto' style={style.link} variant="light">Contacto</Button>
+              <Nav.Link href="#" style={style.link}><Button as={Link} to="/QuienesSomos" variant="light">Quiénes Somos</Button></Nav.Link>
+              <Nav.Link href="#" style={style.link}><Button as={Link} to='/Contacto' variant="light">Contacto</Button></Nav.Link>
               </Nav>
             </Navbar.Collapse>
            
@@ -95,10 +97,10 @@ const style = {
     fontWeight: '702',
   },
   dropdown: {
-    margin: '-6px',
+    margin: 'auto',
   },
   link: {
-    margin: '0em 0em 0em 1.2em',
+    margin: 'auto',
   },
   contact: {
     fontSize: '12px',
