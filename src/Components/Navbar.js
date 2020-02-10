@@ -45,7 +45,7 @@ function NavBar (props) {
               <Nav.Link href="#" style={style.link}><Button as={Link} to='/Productos' variant="light">Productos</Button></Nav.Link>
               
               
-              <Dropdown as={Link} to='/Productos' variant="link" style={style.dropdown}>
+              <Dropdown variant="link" style={style.dropdown}>
 
                 <Dropdown.Toggle split variant="light" id="dropdown-split-basic"/>
 
@@ -58,7 +58,8 @@ function NavBar (props) {
                   <Dropdown.Divider />
                   <Nav.Link href="#"><Dropdown.Item as={Link} to="/Contacto">Servicios y Refacciones</Dropdown.Item></Nav.Link>                  
                   <Dropdown.Divider />
-                  <Nav.Link href="#"><Dropdown.Item as={Link} to="/Productos"><a href="http://dicomer.mx/" 
+                  <Nav.Link href="https://dicomer.mx/" ><Dropdown.Item href="https://dicomer.mx/" ><a
+                     href="https://dicomer.mx/" 
                      target='_blank'
                      style={{'textDecoration': 'none', 'color': '#000'}}>
                     Vehículos Seminuevos
