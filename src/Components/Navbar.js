@@ -45,7 +45,7 @@ function NavBar (props) {
               <Nav.Link href="#" style={style.link}><Button as={Link} to='/Productos' variant="light">Productos</Button></Nav.Link>
               
               
-              <Dropdown as={Link} to='#' variant="link" style={style.dropdown}>
+              <Dropdown as={Link} to='/Productos' variant="link" style={style.dropdown}>
 
                 <Dropdown.Toggle split variant="light" id="dropdown-split-basic"/>
 
