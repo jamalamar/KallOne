@@ -26,7 +26,6 @@ function App() {
               <Route path="/Contacto" component={Contacto} />
               <Route path="/Climatización" component={Climatizacion} />
               <Route path="/Vehículos" component={Vehiculos} />
-              
       
               <Footer />
 
